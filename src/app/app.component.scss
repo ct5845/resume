@@ -1,0 +1,47 @@
+$width: 4rem;
+$height: 3rem;
+$scale: 15;
+
+:host {
+  display: flex;
+  flex-flow: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  height: 100%;
+  width: 100%;
+  padding: 0.5rem;
+  text-align: center;
+
+  header {
+    text-align: center;
+    flex: 0 0 auto;
+  }
+
+  .page {
+    flex: 1 1 auto;
+    display: flex;
+
+    router-outlet {
+      display: none;
+    }
+  }
+
+  .container {
+    h1 {
+      display: inline-block;
+      margin: 0.5rem 0;
+      font-size: 40px;
+      font-weight: 400;
+    }
+
+    li {
+      transition: all 0.5s ease-in;
+      background-color: transparent;
+
+      :hover {
+        background-color: #000;
+        color: white;
+      }
+    }
+  }
+}
