@@ -1,29 +1,40 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "./assets/colors";
+@import "./assets/variables";
+
+@include create-default-colors();
 
 html {
   height: 100%;
-  //font-family: 'Press Start 2P', cursive;
-  //font-family: 'Fredericka the Great', cursive;
-  //font-family: 'Cinzel Decorative', cursive;
-  //font-family: 'Major Mono Display', monospace;
-  //font-family: 'Mountains of Christmas', cursive;
   font-family: 'Roboto Slab', serif;
+  font-size: 14px;
 }
 
 body {
-  height: 100%;
+  min-height: 100%;
   margin: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 * {
   box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
   font-family: 'Fredericka the Great', cursive;
   font-weight: 400;
-  line-height: 2;
   margin: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h3, h4 {
+  font-weight: 700;
+  line-height: 1.5;
 }
 
 .strike {
@@ -31,12 +42,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: #6495ed;
-  text-decoration: underline;
-  text-decoration-color: fade_out(#6495ed, 0.5);
-
   &.email {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
@@ -48,5 +55,25 @@ a {
     span {
       text-decoration: underline;
     }
+  }
+}
+
+@media screen and (min-width: $a5Width) {
+  body {
+    padding: 1rem;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, #2ecc71, #27ae60);
+  }
+}
+
+@media screen and (min-width: $a4Width) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media print {
+  h2, h3 {
+    font-family: 'Roboto Slab', serif;
   }
 }

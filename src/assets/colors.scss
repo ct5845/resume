@@ -1,0 +1,31 @@
+$colors: (
+        'about me': #1abc9c,
+        'experience': #3498db,
+        'education': #e67e22,
+        'skills': #9b59b6,
+        'hobbies': #2ecc71
+);
+
+@mixin create-color-selector($selector) {
+  @each $name, $value in $colors {
+    [#{$selector}="#{$name}"] {
+      #{$selector}: $value;
+    }
+  }
+}
+
+@mixin create-default-colors() {
+  @include create-color-selector('background-color');
+  @include create-color-selector('color');
+  @include create-color-selector('fill');
+  @include create-color-selector('border-color');
+  @include create-color-selector('border-left-color');
+  @include create-color-selector('border-right-color');
+  @include create-color-selector('border-top-color');
+  @include create-color-selector('border-bottom-color');
+
+  [background-color] {
+    color: white;
+    fill: white;
+  }
+}

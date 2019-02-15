@@ -1,11 +1,32 @@
 <header>
-    <h1>Christopher Turner</h1>
-    <mat-icon *ngIf="!appService.home">arrow_back_ios</mat-icon>
+    <div class="title">
+        <h1>
+            <span *ngIf="!appService.page">Christopher Turner</span>
+            <a [routerLink]="['/home']" *ngIf="appService.page">CT</a>
+        </h1>
+        <h2 [attr.color]="appService.page" *ngIf="appService.page">
+            / {{ appService.page }}
+        </h2>
+    </div>
     <a class="email" href="mailto:ct5845@gmail.com" matRipple>
         <mat-icon>mail_outline</mat-icon>
         <span>ct5845@gmail.com</span>
     </a>
 </header>
-<div class="page">
+<div class="page" *ngIf="!a4" [attr.page]="!!appService.page" [attr.border-left-color]="appService.page">
     <router-outlet></router-outlet>
+</div>
+<div class="grid" *ngIf="a4">
+    <h2 background-color="about me">About Me</h2>
+    <app-about-me></app-about-me>
+    <div class="lhs">
+        <h2 color="experience"><strong>Experience</strong></h2>
+        <app-experience></app-experience>
+        <h2 color="education"><strong>Education</strong></h2>
+        <app-education></app-education>
+    </div>
+    <div class="rhs">
+        <app-skills></app-skills>
+        <app-hobbies></app-hobbies>
+    </div>
 </div>

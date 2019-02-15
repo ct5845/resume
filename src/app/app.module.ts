@@ -3,14 +3,14 @@ import {NgModule} from '@angular/core';
 
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
-import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
-import {MatIconModule, MatRippleModule} from "@angular/material";
-import { AboutMeComponent } from './about-me/about-me.component';
-import { HomeComponent } from './home/home.component';
-import { ExperienceComponent } from './experience/experience.component';
-import { EducationComponent } from './education/education.component';
-import { HobbiesComponent } from './hobbies/hobbies.component';
-import { SkillsComponent } from './skills/skills.component';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {MatGridListModule, MatIconModule, MatRippleModule} from '@angular/material';
+import {AboutMeComponent} from './about-me/about-me.component';
+import {HomeComponent} from './home/home.component';
+import {ExperienceComponent} from './experience/experience.component';
+import {EducationComponent} from './education/education.component';
+import {HobbiesComponent} from './hobbies/hobbies.component';
+import {SkillsComponent} from './skills/skills.component';
 
 @NgModule({
     declarations: [
@@ -27,10 +27,11 @@ import { SkillsComponent } from './skills/skills.component';
         BrowserAnimationsModule,
         MatIconModule,
         MatRippleModule,
+        MatGridListModule,
         AppRoutingModule
     ],
     providers: [],
-    bootstrap: [AppComponent]
+    bootstrap: [ AppComponent ]
 })
 export class AppModule {
 }

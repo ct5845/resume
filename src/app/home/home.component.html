@@ -1,21 +1,11 @@
 <p>Web Developer by day, Rowing Coach by
     <span class="strike">evening</span>/<span class="strike">night</span>/<span class="strike">morning</span>/every
     spare minute.</p>
-<div>
-    <section>
-        <h2><a [routerLink]="['/about']">About Me</a></h2>
-    </section>
-    <section>
-        <h2><a>Experience</a></h2>
-    </section>
-    <section>
-        <h2><a>Education</a></h2>
-    </section>
-    <section>
-        <h2><a>Skills</a></h2>
-    </section>
-    <section>
-        <h2><a>Hobbies</a></h2>
-    </section>
-</div>
+<nav>
+    <h2><a background-color="about me" [routerLink]="['/about']">About Me</a></h2>
+    <h2><a background-color="experience" [routerLink]="['/experience']">Experience</a></h2>
+    <h2><a background-color="education" [routerLink]="['/education']">Education</a></h2>
+    <h2><a background-color="skills" [routerLink]="['/skills']">Skills</a></h2>
+    <h2><a background-color="hobbies" [routerLink]="['/hobbies']">Hobbies</a></h2>
+</nav>
 
