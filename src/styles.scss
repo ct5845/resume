@@ -73,7 +73,19 @@ a {
 }
 
 @media print {
+  html {
+    font-size: 12px;
+  }
+
   h2, h3 {
     font-family: 'Roboto Slab', serif;
+  }
+
+  h4 {
+    margin: 0;
+
+    + p {
+      margin: 0.5rem 0;
+    }
   }
 }

@@ -1,0 +1,16 @@
+:host {
+  ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-lefT: 0;
+
+    li {
+      padding: 0.2rem;
+      margin-right: 0.5rem;
+      margin-bottom: 0.5rem;
+      background-color: rgba(0,0,0,0.2);
+      font-weight: bold;
+    }
+  }
+}

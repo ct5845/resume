@@ -6,6 +6,14 @@ $colors: (
         'hobbies': #2ecc71
 );
 
+$colors: (
+        'about me': #e67e22,
+        'experience': #e67e22,
+        'education': #e67e22,
+        'skills': #e67e22,
+        'hobbies': #e67e22
+);
+
 @mixin create-color-selector($selector) {
   @each $name, $value in $colors {
     [#{$selector}="#{$name}"] {

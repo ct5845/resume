@@ -7,9 +7,7 @@ import {AppService} from '../app.service';
   styleUrls: ['./skills.component.scss']
 })
 export class SkillsComponent implements OnInit {
-
-  constructor(appService: AppService) {
-    // appService.page = 'skills';
+  constructor() {
   }
 
   ngOnInit() {
