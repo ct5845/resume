@@ -37,6 +37,14 @@ h3, h4 {
   line-height: 1.5;
 }
 
+h4 {
+  margin: 0.5rem 0;
+}
+
+p {
+  margin: 0.5rem 0;
+}
+
 .strike {
   text-decoration: line-through;
 }
@@ -81,11 +89,15 @@ a {
     font-family: 'Roboto Slab', serif;
   }
 
-  h4 {
-    margin: 0;
-
-    + p {
-      margin: 0.5rem 0;
-    }
+  h2 {
+    margin: 0.5rem 0;
   }
+
+  //h4 {
+  //  margin: 0;
+  //
+  //  + p {
+  //    margin: 0.5rem 0;
+  //  }
+  //}
 }

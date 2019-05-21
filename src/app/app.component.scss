@@ -3,7 +3,7 @@
 
 @page {
   size: A4 portrait;
-  margin: 4cm;
+  margin: 2cm;
 }
 
 :host {
@@ -54,9 +54,9 @@
     }
   }
 
-  h2 {
-    padding: 0.5rem;
-  }
+  //h2 {
+  //  padding: 0.5rem;
+  //}
 
   .grid {
     display: flex;
@@ -69,13 +69,13 @@
 
     .lhs {
       margin-top: 0.5rem;
-      flex: 0 0 60%;
+      flex: 0 0 56%;
       padding-right: 0.25rem;
     }
 
     .rhs {
       margin-top: 0.5rem;
-      flex: 0 0 40%;
+      flex: 0 0 44%;
       padding-left: 0.25rem;
     }
   }
@@ -110,7 +110,7 @@
 
 @media screen and (min-width: $a4Width) {
   :host {
-    padding: 4rem;
+    padding: 2rem;
     width: $a4Width;
     height: $a4Height;
   }
