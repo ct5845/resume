@@ -1,0 +1,269 @@
+{
+  "basics": {
+    "name": "Christopher Turner",
+    "label": "Web Architect & Developer",
+    "location": {
+      "city": "Bristol",
+      "countryCode": "UK"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "ct5845",
+        "url": "https://github.com/ct5845"
+      },
+      {
+        "network": "Strava",
+        "username": "Christopher Turner",
+        "url": "https://www.strava.com/athletes/812485"
+      }
+    ],
+    "email": "ct5845@gmail.com"
+  },
+  "skills": [
+    {
+      "name": "Key Languages & Frameworks",
+      "keywords": [
+        "Typescript",
+        "HTML5",
+        "CSS (SASS & LESS)",
+        "Angular (1.x - 11)",
+        "RxJS",
+        "Jasmine & Karma"
+      ]
+    },
+    {
+      "name": "Leadership",
+      "keywords": [
+        "Code Optimisation",
+        "SSDLC Management",
+        "Agile, Scrum & Kanban",
+        "Client Relationships",
+        "Requirement Gathering",
+        "Supporting & Tutoring"
+      ]
+    },
+    {
+      "name": "Tools and other",
+      "keywords": [
+        "Jenkins (CI)",
+        "mySQL & SQL Server",
+        "Git, Bitbucket & TFS",
+        "JIRA, Confluence & Teams",
+        "Gulp, Grunt & Webpack",
+        "Inkscape (SVG)"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "name": "Alterian",
+      "position": "Web Architect",
+      "startDate": "2018",
+      "highlights": [
+        "Established SSDLC and Continuous Integration Lifecycles for our major web projects.",
+        "Introduced UI Unit Testing, reducing risk and transforming release cycles.",
+        "Pioneered “mobile-first” strategy, bringing our app to mobile devices, and greatly increasing usability.",
+        "Outpaced our competitors to deliver cutting edge customer experience technology to the market.",
+        "Supported a small team of novice developers to deliver quality code."
+      ]
+    },
+    {
+      "name": "Alterian",
+      "position": "Senior Web Developer",
+      "groupWith": "Alterian/Web Architect",
+      "startDate": "2016",
+      "endDate": "2018",
+      "highlights": [
+        "Consolidated and simplified our web technologies under one stack (Angular).",
+        "Engineering performant and re-usable modules to be used across various business scopes."
+      ]
+    },
+    {
+      "name": "Computershare",
+      "position": "Senior Web Developer",
+      "startDate": "2014",
+      "endDate": "2016",
+      "highlights": [
+        "Demonstrated advantages of rapid prototyping to help steer and define features.",
+        "Collaborated directly with clients to generate roadmaps on our products",
+        "Redesigned critical products in their “maturity phase”, integrating new technologies (Knockout, Javascript, Angular 1.x), in the end saving clients, creating quick wins, from small efforts."
+      ]
+    },
+    {
+      "name": "Computershare",
+      "position": "Web Developer",
+      "startDate": "2012",
+      "endDate": "2014",
+      "groupWith": "Computershare/Senior Web Developer",
+      "highlights": [
+        "Simplified the code styles in use, using industry standards to create more maintainable and manageable code base.",
+        "Consulting Business and other Technology teams to help them improve the products; quality of requirements and usability of systems."
+      ]
+    },
+    {
+      "name": "Computershare",
+      "position": "DevOps",
+      "startDate": "2010",
+      "endDate": "2012",
+      "highlights": [
+        "Diagnosed and fixed critical production issues in a variety of languages and frameworks in time-critical areas.",
+        "Decreased load on developers by providing small features and bug fixes.",
+        "Administered state and deployment of development to production instances."
+      ]
+    },
+    {
+      "name": "Computershare",
+      "position": "System Tester",
+      "startDate": "2008",
+      "endDate": "2010",
+      "highlights": [
+        "Spearheaded automation of testing set-up to drastically reduce turnaround times.",
+        "Engaged with Analysts and Product Owners to design prototypes to aid development."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Bristol University",
+      "area": "Computer Science",
+      "studyType": "BSC",
+      "startDate": "2005",
+      "endDate": "2008",
+      "score": "2:1"
+    },
+    {
+      "institution": "Chislehurst and Sidcup Grammar School",
+      "studyType": "A Levels",
+      "startDate": "2004",
+      "endDate": "2005",
+      "score": "A-B",
+      "courses": [
+        "Computing",
+        "Maths",
+        "Psychology"
+      ]
+    },
+    {
+      "institution": "Chislehurst and Sidcup Grammar School",
+      "studyType": "AS Levels",
+      "startDate": "2003",
+      "endDate": "2004",
+      "score": "A-B",
+      "courses": [
+        "Classics",
+        "Economics"
+      ]
+    },
+    {
+      "institution": "Chislehurst and Sidcup Grammar School",
+      "studyType": "GCSEs",
+      "startDate": "1998",
+      "endDate": "2004",
+      "score": "A-C",
+      "courses": [
+        "I.T",
+        "Maths",
+        "English",
+        "English Literature",
+        "History",
+        "French",
+        "Double Science",
+        "Graphic Design",
+        "Religious Studies"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Bristol Rowing Website",
+      "url": "https://bristolrowing.co.uk",
+      "description": "A rowing membership, organiser, training log, training plan, power gate analysis website."
+    },
+    {
+      "name": "Rowing Toolbox",
+      "url": "https://ct5845.github.io/rowing-toolbox",
+      "description": "Basic tools to aid with race and training pace predictions, and analysis of individual and crew power data from instrumented gates."
+    }
+  ],
+  "volunteer": [
+    {
+      "position": "Chairman",
+      "organization": "City of Bristol Rowing Club",
+      "startDate": "2019",
+      "endDate": "2020"
+    },
+    {
+      "position": "Club Captain",
+      "organization": "City of Bristol Rowing Club",
+      "startDate": "2018",
+      "endDate": "2019"
+    },
+    {
+      "position": "Vice-Captain",
+      "organization": "City of Bristol Rowing Club",
+      "startDate": "2016",
+      "endDate": "2018"
+    },
+    {
+      "position": "Men's Captain",
+      "organization": "City of Bristol Rowing Club",
+      "startDate": "2014",
+      "endDate": "2016"
+    },
+    {
+      "position": "Women's Coach",
+      "organization": "City of Bristol Rowing Club",
+      "startDate": "2016"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Rowing",
+      "keywords": [
+        "After ‘hanging up my oar’ I’ve supported and coached the City of Bristol Women's Squad since 2016, in this time we’ve grown from a small squad of just 9 athletes to over 50, and from narrowly missing qualification for the highest national club event at Henley Womens’ Regatta to finalists in 2019 (our last full racing season). I received the region Bristol Rowing Volunteer of the Year Award in 2020, and am shortlisted (COVID postponed) for the national award."
+      ]
+    },
+    {
+      "name": "Charity Trustee",
+      "keywords": [
+        "At the City of Bristol Rowing Club, I have been a trustee for over 7 years, fulfilling roles at Men’s Captain, Club Captain and finally Chairman. This has always been a brilliant experience looking to grow our club of 300 into one of the best places to row in the country, both at a performance and recreational level."
+      ]
+    },
+    {
+      "name": "Cycling",
+      "keywords": [
+        "I’m an all-weather commuter, and have been since I got my first bike 6 months into my first job. I am also unashamedly a fair-weather road cyclist! I love to train, and be out, and have am enjoying longer and longer rides recently completing a everesting."
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Volunteer of the Year",
+      "date": "2020-03-01",
+      "awarder": "British Rowing",
+      "summary": "Winner for the South-West Region, Shortlisted for National Award",
+      "interest": "Rowing",
+      "work": false
+    },
+    {
+      "title": "Everested",
+      "date": "2020-06-20",
+      "url": "https://everesting.cc/hall-of-fame/#/hill/3645396908",
+      "summary": "8874m - 14h43m",
+      "interest": "Cycling",
+      "work": false
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "meta": {
+    "canonical": "https://github.com/ct5845/resume/assets/resume.json",
+    "version": "1.0.0",
+    "lastModified": "2021-02-25"
+  }
+}
