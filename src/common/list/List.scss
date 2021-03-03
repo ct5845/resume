@@ -1,0 +1,21 @@
+.List {
+  .List_ul {
+    &.twoColumns {
+      display: flex;
+      flex-wrap: wrap;
+
+      li {
+        flex: 0 0 50%;
+      }
+    }
+
+    .mediaIsPrint & {
+      margin-top: 0;
+    }
+  }
+}
+
+.List.hideBullets ul {
+  list-style: none;
+  padding: 0;
+}
