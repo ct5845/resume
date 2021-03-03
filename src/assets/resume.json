@@ -18,11 +18,13 @@
         "url": "https://www.strava.com/athletes/812485"
       }
     ],
-    "email": "ct5845@gmail.com"
+    "email": "ct5845@gmail.com",
+    "url": "https://ct5845.github.io/resume",
+    "summary": "10+ years experience in the web development sector, engaged with hands-on coding throughout. Process driven, level-headed and rational approach to problem solving. A track record of quick adaptations, skill progression and technology enhancements in teams both small and large, familiar and new. Excellent collaboration skills with focus on the users needs and desires, which played a key part in our product landing as a leader on the Forrester Journey Orchestration Wave (2020)."
   },
   "skills": [
     {
-      "name": "Key Languages & Frameworks",
+      "name": "Languages & Frameworks",
       "keywords": [
         "Typescript",
         "HTML5",
@@ -57,6 +59,7 @@
   ],
   "work": [
     {
+      "id": 5,
       "name": "Alterian",
       "position": "Web Architect",
       "startDate": "2018",
@@ -69,9 +72,10 @@
       ]
     },
     {
+      "id": 4,
       "name": "Alterian",
       "position": "Senior Web Developer",
-      "groupWith": "Alterian/Web Architect",
+      "groupWith": 5,
       "startDate": "2016",
       "endDate": "2018",
       "highlights": [
@@ -80,6 +84,7 @@
       ]
     },
     {
+      "id": 3,
       "name": "Computershare",
       "position": "Senior Web Developer",
       "startDate": "2014",
@@ -91,17 +96,19 @@
       ]
     },
     {
+      "id": 2,
       "name": "Computershare",
       "position": "Web Developer",
       "startDate": "2012",
       "endDate": "2014",
-      "groupWith": "Computershare/Senior Web Developer",
+      "groupWith": 3,
       "highlights": [
         "Simplified the code styles in use, using industry standards to create more maintainable and manageable code base.",
         "Consulting Business and other Technology teams to help them improve the products; quality of requirements and usability of systems."
       ]
     },
     {
+      "id": 1,
       "name": "Computershare",
       "position": "DevOps",
       "startDate": "2010",
@@ -113,6 +120,7 @@
       ]
     },
     {
+      "id": 0,
       "name": "Computershare",
       "position": "System Tester",
       "startDate": "2008",
@@ -126,11 +134,11 @@
   "education": [
     {
       "institution": "Bristol University",
-      "area": "Computer Science",
-      "studyType": "BSC",
+      "studyType": "B.Sc.",
       "startDate": "2005",
       "endDate": "2008",
-      "score": "2:1"
+      "score": "2:1",
+      "courses": ["Computer Science"]
     },
     {
       "institution": "Chislehurst and Sidcup Grammar School",
@@ -142,7 +150,8 @@
         "Computing",
         "Maths",
         "Psychology"
-      ]
+      ],
+      "hideScore": true
     },
     {
       "institution": "Chislehurst and Sidcup Grammar School",
@@ -153,7 +162,8 @@
       "courses": [
         "Classics",
         "Economics"
-      ]
+      ],
+      "hideScore": true
     },
     {
       "institution": "Chislehurst and Sidcup Grammar School",
@@ -171,19 +181,25 @@
         "Double Science",
         "Graphic Design",
         "Religious Studies"
-      ]
+      ],
+      "hideScore": true
     }
   ],
   "projects": [
     {
       "name": "Bristol Rowing Website",
       "url": "https://bristolrowing.co.uk",
-      "description": "A rowing membership, organiser, training log, training plan, power gate analysis website."
+      "description": "A mobile friendly website using Angular and PHP, for the rowing club which offers; Web content management for the 'External' Website, and for 'Internal Website', user and account management, treasury, outing organisers, squad management, training calendars, logs and plan builders, plus more."
     },
     {
       "name": "Rowing Toolbox",
       "url": "https://ct5845.github.io/rowing-toolbox",
-      "description": "Basic tools to aid with race and training pace predictions, and analysis of individual and crew power data from instrumented gates."
+      "description": "A collection of tools using Angular and Firebase written mainly for myself, but also some athletes to aid with race and training pace predictions, and analysis of individual and crew power data from instrumented/power gates."
+    },
+    {
+      "name": "My Resume",
+      "url": "https://ct5845.github.io/resume",
+      "description": "A mobile, desktop and print friendly rendition of my Resume, built with React."
     }
   ],
   "volunteer": [
@@ -221,7 +237,7 @@
     {
       "name": "Rowing",
       "keywords": [
-        "After ‘hanging up my oar’ I’ve supported and coached the City of Bristol Women's Squad since 2016, in this time we’ve grown from a small squad of just 9 athletes to over 50, and from narrowly missing qualification for the highest national club event at Henley Womens’ Regatta to finalists in 2019 (our last full racing season). I received the region Bristol Rowing Volunteer of the Year Award in 2020, and am shortlisted (COVID postponed) for the national award."
+        "I’ve supported and coached the City of Bristol Women's Squad since 2016, in this time we’ve grown from a small squad of just 9 athletes to over 50, and from narrowly missing qualification for the highest national club event at Henley Womens’ Regatta to finalists in 2019 (our last full racing season). I received the British Rowing Volunteer of the Year Award in 2020 for my region, and I am shortlisted for the national award."
       ]
     },
     {
@@ -233,7 +249,7 @@
     {
       "name": "Cycling",
       "keywords": [
-        "I’m an all-weather commuter, and have been since I got my first bike 6 months into my first job. I am also unashamedly a fair-weather road cyclist! I love to train, and be out, and have am enjoying longer and longer rides recently completing a everesting."
+        "All-weather commuter, fair-weather road cyclist! I love my bike(s) and whether it's sitting on the turbo or enjoying a sunny evening ride, just can't beat time on the saddle!"
       ]
     }
   ],
@@ -262,7 +278,7 @@
     }
   ],
   "meta": {
-    "canonical": "https://github.com/ct5845/resume/assets/resume.json",
+    "canonical": "https://github.com/ct5845/resume/src/assets/resume.json",
     "version": "1.0.0",
     "lastModified": "2021-02-25"
   }

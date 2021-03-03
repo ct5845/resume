@@ -1,0 +1,18 @@
+@import '../../assets/styles/variables';
+
+.ResumeSkills {
+  .List {}
+}
+
+.ResumeSkills_lists {
+  display: flex;
+  flex-flow: column;
+
+  .mediaIsPrint & {
+    flex-flow: row;
+
+    .List {
+      flex: 0 0 calc(100%/3);
+    }
+  }
+}

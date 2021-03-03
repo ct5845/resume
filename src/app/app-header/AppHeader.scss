@@ -1,0 +1,26 @@
+@import '/src/assets/styles/variables';
+
+.AppHeader {
+  flex: 0 0 auto;
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  max-width: $screenMaxWidth;
+
+  .AppHeader_Paper {
+    margin-right: $gutter;
+  }
+
+  .AppHeader_Box {
+    padding: $gutter;
+    flex: 0 0 auto;
+  }
+
+  .AppHeader_spacer {
+    flex: 1 1 auto;
+  }
+
+  .AppHeader_Toolbar {
+    width: 100%;
+  }
+}

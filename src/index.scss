@@ -1,15 +1,43 @@
 @import '~normalize.css';
 
+
+html {
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+
+  @media print {
+    overflow: auto;
+  }
+}
+
 body {
   margin: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+  font-size: 1rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  @media print {
+    height: auto;
+    font-size: 0.9167rem;
+  }
+}
+
+div#root {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+

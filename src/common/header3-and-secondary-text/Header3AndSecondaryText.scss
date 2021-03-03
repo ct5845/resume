@@ -1,0 +1,10 @@
+@import "../../assets/styles/variables";
+
+.DateWithHeader {
+  display: flex;
+  align-items: center;
+
+  :first-child {
+    margin-right: $gutter;
+  }
+}
