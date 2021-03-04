@@ -22,11 +22,6 @@ function AppFooter(props: {
                 icon={<Icon>home</Icon>}
             />
             <BottomNavigationAction
-                label="Print"
-                onClick={printPage}
-                icon={<Icon>print</Icon>}
-            />
-            <BottomNavigationAction
                 onClick={userClickedOnContact}
                 label="Contact"
                 icon={<Icon>email</Icon>}
