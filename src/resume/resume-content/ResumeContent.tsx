@@ -1,5 +1,5 @@
 import './ResumeContent.scss';
-import pageSpacing from '../../common/spacing/page-spacing';
+import usePageSpacing from '../../common/spacing/usePageSpacing';
 import {Box, Typography, useMediaQuery} from '@material-ui/core';
 import {CTMedia} from '../../common/media/media-queries';
 import React from 'react';
@@ -13,7 +13,7 @@ function ResumeContent(props: {
     const media = CTMedia.is(useMediaQuery);
 
     const { section } = useParams<{ section: string }>();
-    const padding = pageSpacing(useMediaQuery);
+    const padding = usePageSpacing();
     const hideHeader = (!media.medium || !props.title) && !media.print;
 
     return <Box

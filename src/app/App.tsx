@@ -2,14 +2,14 @@ import React from 'react';
 import './App.scss';
 import {HashRouter, Route, Switch} from 'react-router-dom';
 import {routes} from '../resume/routes';
-import {useMediaQuery} from '@material-ui/core';
-import {CTMedia} from '../common/media/media-queries';
 import ResumeHome from '../resume/resume-home/ResumeHome';
 import AppRoute from './app-route/AppRoute';
 import ResumePrint from '../resume/resume-print/ResumePrint';
+import {useMedia} from '../common/media/useMedia';
+
 
 function App() {
-    const media = CTMedia.is(useMediaQuery);
+    const media = useMedia();
     const showFooter = !media.medium && !media.print;
     const showHeader = !media.print;
 
