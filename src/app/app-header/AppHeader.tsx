@@ -33,7 +33,7 @@ function AppHeader(props: { pageTitle?: string }) {
                     Print
                 </Button>
                 <Button variant="contained"
-                        color="secondary"
+                        color="primary"
                         onClick={userClickedOnContact}
                         startIcon={<Icon>email</Icon>}>
                     Contact
