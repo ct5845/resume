@@ -6,9 +6,13 @@ import ResumeProjects from '../resume-projects/ResumeProjects';
 import ResumeInterests from '../resume-interests/ResumeInterests';
 import React from 'react';
 import ResumeContent from '../resume-content/ResumeContent';
+import ResumeTimeline from '../resume-timeline/ResumeTimeline';
 
 function ResumeAll() {
     return <>
+        <ResumeContent id='' title="">
+            <ResumeTimeline/>
+        </ResumeContent>
         <ResumeContent id='summary' title="Summary">
             <ResumePersonalStatement/>
         </ResumeContent>

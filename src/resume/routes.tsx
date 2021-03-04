@@ -76,8 +76,8 @@ export const routes = [
             const mediaIsMediumDef = CTMedia.isMedium(useMediaQuery);
 
             return mediaIsMediumDef ?
-                    <ResumeTimeline/> :
-                    <ResumeHome/>;
+                <ResumeContent><ResumeTimeline/></ResumeContent> :
+                <ResumeHome/>;
         },
         header: () => <AppHeader/>,
         footer: () => <AppFooter next={{route: '/summary', label: 'Summary'}}/>
