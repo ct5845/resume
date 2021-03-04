@@ -20,7 +20,7 @@
     ],
     "email": "ct5845@gmail.com",
     "url": "https://ct5845.github.io/resume",
-    "summary": "10+ years experience in the web development sector, engaged with hands-on coding throughout. Process driven, level-headed and rational approach to problem solving. A track record of quick adaptations, skill progression and technology enhancements in teams both small and large, familiar and new. Excellent collaboration skills with focus on the users needs and desires, which played a key part in our product landing as a leader on the Forrester Journey Orchestration Wave (2020)."
+    "summary": "Over 10+ years experience in the web developer sector. Process driven, pragmatic approach to problem solving, dealing with complex issues and development. A track record of quick adaptations, skill progression and technology enhancements in teams both small and large, familiar and new. Excellent collaboration skills with focus on the customers’ needs and desires, leading a small to play a key part in our product landing as a leader on the Forrester Journey Orchestration Wave (2020)."
   },
   "skills": [
     {
@@ -69,55 +69,60 @@
         "Pioneered “mobile-first” strategy, bringing our app to mobile devices, and greatly increasing usability.",
         "Outpaced our competitors to deliver cutting edge customer experience technology to the market.",
         "Supported a small team of novice developers to deliver quality code."
-      ]
+      ],
+      "color": "#fcb654"
     },
     {
       "id": 4,
       "name": "Alterian",
       "position": "Senior Web Developer",
       "groupWith": 5,
-      "startDate": "2016",
+      "startDate": "2015",
       "endDate": "2018",
       "highlights": [
         "Consolidated and simplified our web technologies under one stack (Angular).",
         "Engineering performant and re-usable modules to be used across various business scopes."
-      ]
+      ],
+      "color": "#fcb654"
     },
     {
       "id": 3,
       "name": "Computershare",
       "position": "Senior Web Developer",
-      "startDate": "2014",
-      "endDate": "2016",
+      "startDate": "2013",
+      "endDate": "2015",
       "highlights": [
         "Demonstrated advantages of rapid prototyping to help steer and define features.",
         "Collaborated directly with clients to generate roadmaps on our products",
         "Redesigned critical products in their “maturity phase”, integrating new technologies (Knockout, Javascript, Angular 1.x), in the end saving clients, creating quick wins, from small efforts."
-      ]
+      ],
+      "color": "#93186c"
     },
     {
       "id": 2,
       "name": "Computershare",
       "position": "Web Developer",
-      "startDate": "2012",
-      "endDate": "2014",
+      "startDate": "2011",
+      "endDate": "2013",
       "groupWith": 3,
       "highlights": [
         "Simplified the code styles in use, using industry standards to create more maintainable and manageable code base.",
         "Consulting Business and other Technology teams to help them improve the products; quality of requirements and usability of systems."
-      ]
+      ],
+      "color": "#93186c"
     },
     {
       "id": 1,
       "name": "Computershare",
       "position": "DevOps",
       "startDate": "2010",
-      "endDate": "2012",
+      "endDate": "2011",
       "highlights": [
         "Diagnosed and fixed critical production issues in a variety of languages and frameworks in time-critical areas.",
         "Decreased load on developers by providing small features and bug fixes.",
         "Administered state and deployment of development to production instances."
-      ]
+      ],
+      "color": "#93186c"
     },
     {
       "id": 0,
@@ -128,7 +133,8 @@
       "highlights": [
         "Spearheaded automation of testing set-up to drastically reduce turnaround times.",
         "Engaged with Analysts and Product Owners to design prototypes to aid development."
-      ]
+      ],
+      "color": "#93186c"
     }
   ],
   "education": [
@@ -138,7 +144,10 @@
       "startDate": "2005",
       "endDate": "2008",
       "score": "2:1",
-      "courses": ["Computer Science"]
+      "courses": [
+        "Computer Science"
+      ],
+      "color": "#b01c2e"
     },
     {
       "institution": "Chislehurst and Sidcup Grammar School",

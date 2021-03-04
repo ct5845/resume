@@ -1,5 +1,8 @@
+import './ResumeTimeline.scss';
+import { ReactComponent as TimelineSVG } from '../../assets/svg/timeline.svg';
+
 function ResumeTimeline() {
-    return <>TODO Insert Timeline</>;
+    return <TimelineSVG />;
 }
 
 export default ResumeTimeline;

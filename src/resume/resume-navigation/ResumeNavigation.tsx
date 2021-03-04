@@ -1,16 +1,16 @@
 import './ResumeNavigation.scss';
-import {Box, Button, useMediaQuery} from '@material-ui/core';
+import {Box, Button} from '@material-ui/core';
 import {Link, useLocation} from 'react-router-dom';
 import React from 'react';
-import {CTMedia} from '../../common/media/media-queries';
+import {useMedia} from '../../common/media/useMedia';
 
-function getButtonColor(mediaIsMedium: boolean, pathnameMatches: boolean) {
-    return !mediaIsMedium || pathnameMatches ? 'primary' : 'default';
+function getButtonColor(mediaIsMedium: boolean, mediaIsLarge: boolean, pathnameMatches: boolean) {
+    return !mediaIsMedium || pathnameMatches && !mediaIsLarge ? 'primary' : 'default';
 }
 
 function ResumeNavigation() {
     const location = useLocation();
-    const mediaIsMedium = CTMedia.isMedium(useMediaQuery);
+    const media = useMedia();
 
     const routesAndLabels = [
         {route: '/summary', label: 'Summary'},
@@ -21,7 +21,7 @@ function ResumeNavigation() {
         {route: '/interests', label: 'Interests'}
     ];
 
-    if (mediaIsMedium) {
+    if (media.medium) {
         routesAndLabels.splice(0, 0, {route: '/', label: 'Home'});
     }
 
@@ -33,7 +33,7 @@ function ResumeNavigation() {
                 component={Link}
                 to={routeAndLabel.route}
                 variant="outlined"
-                color={getButtonColor(mediaIsMedium, location.pathname === routeAndLabel.route)}>{routeAndLabel.label}</Button>;
+                color={getButtonColor(!!media.medium, !!media.large,location.pathname === routeAndLabel.route)}>{routeAndLabel.label}</Button>;
         });
 
     return <Box component="nav" className="ResumeNavigation">

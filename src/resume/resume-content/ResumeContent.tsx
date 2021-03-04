@@ -7,7 +7,7 @@ import { useParams } from 'react-router-dom';
 
 function ResumeContent(props: {
     id?: string
-    title: string,
+    title?: string,
     children: JSX.Element[] | JSX.Element
 }) {
     const media = CTMedia.is(useMediaQuery);
@@ -20,8 +20,12 @@ function ResumeContent(props: {
         component="div"
         // @ts-ignore
         ref={ el => {
-            if (!!el && !!section && !!props.id && section === props.id) {
-                el.scrollIntoView();
+            if(media.large && !media.print) {
+                if (!!el && !!section && !!props.id && section === props.id) {
+                    el.scrollIntoView();
+                } else if (!!el && !section && !props.id) {
+                    el.scrollIntoView();
+                }
             }
         }}
         className="ResumeContent"

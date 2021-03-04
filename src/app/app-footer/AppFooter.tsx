@@ -3,6 +3,7 @@ import React, {useState} from 'react';
 import {BottomNavigation, BottomNavigationAction, Box, Icon} from '@material-ui/core';
 import {Link} from 'react-router-dom';
 import AppContact from '../app-contact/app-contact';
+import printPage from '../../common/print/printPage';
 
 function AppFooter(props: {
                        next?: { label: string, route: string }
@@ -22,6 +23,7 @@ function AppFooter(props: {
             />
             <BottomNavigationAction
                 label="Print"
+                onClick={printPage}
                 icon={<Icon>print</Icon>}
             />
             <BottomNavigationAction
