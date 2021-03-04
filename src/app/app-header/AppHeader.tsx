@@ -29,9 +29,6 @@ function AppHeader(props: { pageTitle?: string }) {
             <div className="AppHeader_spacer"/>
             { (isMedium && !isPrint) &&
             <>
-                <Button onClick={printPage} startIcon={<Icon>print</Icon>}>
-                    Print
-                </Button>
                 <Button variant="contained"
                         color="primary"
                         onClick={userClickedOnContact}
