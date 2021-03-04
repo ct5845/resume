@@ -15,7 +15,7 @@ export default function usePageSpacing() {
         if (newPadding !== padding) {
             setPadding(newPadding);
         }
-    });
+    }, [media.print, media.small, print, padding] );
 
     return padding;
 }

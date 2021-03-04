@@ -4,10 +4,7 @@ import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
 import {CTMedia} from '../../common/media/media-queries';
 import AppContact from '../app-contact/app-contact';
-
-function Print() {
-    window.print();
-}
+import printPage from '../../common/print/printPage';
 
 function AppHeader(props: { pageTitle?: string }) {
     const isMedium = CTMedia.isMedium(useMediaQuery);
@@ -32,7 +29,7 @@ function AppHeader(props: { pageTitle?: string }) {
             <div className="AppHeader_spacer"/>
             { (isMedium && !isPrint) &&
             <>
-                <Button onClick={Print} startIcon={<Icon>print</Icon>}>
+                <Button onClick={printPage} startIcon={<Icon>print</Icon>}>
                     Print
                 </Button>
                 <Button variant="contained"
