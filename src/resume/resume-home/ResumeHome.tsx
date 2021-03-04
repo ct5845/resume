@@ -3,7 +3,7 @@ import './ResumeHome.scss';
 import ResumeHeader from '../resume-header/ResumeHeader';
 import ResumeNavigation from '../resume-navigation/ResumeNavigation';
 import {Box, useMediaQuery} from '@material-ui/core';
-import pageSpacing from '../../common/spacing/page-spacing';
+import usePageSpacing from '../../common/spacing/usePageSpacing';
 import {CTMedia} from '../../common/media/media-queries';
 import useResizeObserver from '@react-hook/resize-observer';
 
@@ -15,7 +15,7 @@ function ResumeHome(props: { children?: JSX.Element | JSX.Element[] }) {
     const [pageLeftPadding, setPageLeftPadding] = useState<number>(0);
     const [pageRightPadding, setPageRightPadding] = useState<number>(0);
 
-    const navPadding = pageSpacing(useMediaQuery);
+    const navPadding = usePageSpacing();
     const mediaIsMedium = CTMedia.isMedium(useMediaQuery);
 
     const sectionRef = React.createRef<HTMLDivElement>();

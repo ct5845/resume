@@ -6,6 +6,7 @@
     margin: auto;
     display: flex;
     flex-flow: column;
+    page-break-after: avoid;
 
     .App_header {
         flex: 0 0 auto;
