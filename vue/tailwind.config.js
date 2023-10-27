@@ -17,6 +17,10 @@ module.exports = {
       colors: {
         primary: 'hsl(var(--p) / 1)',
         secondary: 'hsl(var(--s) / 1)'
+      },
+      spacing: {
+        92: '23rem',
+        152: '38rem'
       }
     }
   },

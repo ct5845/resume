@@ -1,62 +1,48 @@
 {
   "basics": {
     "name": "Christopher Turner",
-    "label": "Web Architect & Developer",
+    "label": "Web Architect",
     "location": {
       "city": "Bristol",
-      "countryCode": "UK"
+      "countryCode": "UK",
+      "icon": {
+        "vue": "fi-gb"
+      }
     },
     "profiles": [
       {
         "network": "GitHub",
-        "username": "ct5845",
-        "url": "https://github.com/ct5845"
+        "icon": {
+          "vue": "bi-github"
+        },
+        "url": "https://github.com/ct5845/resume"
       },
       {
-        "network": "Strava",
-        "username": "Christopher Turner",
-        "url": "https://www.strava.com/athletes/812485"
+        "network": "LinkedIn",
+        "icon": {
+          "vue": "bi-linkedin"
+        },
+        "url": "https://www.linkedin.com/in/christopher-turner-b4a2813a"
       }
     ],
-    "email": "ct5845@gmail.com",
-    "url": "https://ct5845.github.io/resume",
-    "summary": "Over 10+ years experience in the web developer sector. Process driven, pragmatic approach to problem solving, dealing with complex issues and development. A track record of quick adaptations, skill progression and technology enhancements in teams both small and large, familiar and new. Excellent collaboration skills with focus on the customers’ needs and desires, leading a small to play a key part in our product landing as a leader on the Forrester Journey Orchestration Wave (2020)."
+    "url": "https://ct5845.github.io/resume"
   },
-  "skills": [
-    {
-      "name": "Languages & Frameworks",
-      "keywords": [
-        "Typescript",
-        "HTML5",
-        "CSS (SASS & LESS)",
-        "Angular (1.x - 11)",
-        "RxJS",
-        "Jasmine & Karma"
-      ]
+  "skills": {
+    "languages": {
+      "primary": ["Typescript", "HTML", "CSS"],
+      "secondary": ["Javascript", "C#", "PHP", "SCSS", "LESS"],
+      "tertiary": ["VB.NET", "SQL"]
     },
-    {
-      "name": "Leadership",
-      "keywords": [
-        "Code Optimisation",
-        "SSDLC Management",
-        "Agile, Scrum & Kanban",
-        "Client Relationships",
-        "Requirement Gathering",
-        "Supporting & Tutoring"
-      ]
+    "frameworks": {
+      "primary": ["Angular", "RxJs", "Storybook", "Angular Material", "Tailwind", "Jasmine/Karma"],
+      "secondary": ["Angular 1.x"],
+      "tertiary": ["Knockout", "Vue"]
     },
-    {
-      "name": "Tools and other",
-      "keywords": [
-        "Jenkins (CI)",
-        "mySQL & SQL Server",
-        "Git, Bitbucket & TFS",
-        "JIRA, Confluence & Teams",
-        "Gulp, Grunt & Webpack",
-        "Inkscape (SVG)"
-      ]
+    "tools": {
+      "primary": ["Git, Bitbucket & TFS", "JIRA, Confluence & Teams"],
+      "secondary": ["Inkscape/SVG", "Jenkins", "mySQL & SQL Server", "Webpack", "Gulp"]
     }
-  ],
+  },
   "work": [
     {
       "id": 5,
@@ -140,58 +126,15 @@
   "education": [
     {
       "institution": "Bristol University",
-      "studyType": "B.Sc.",
+      "studyType": "2:1 Computer Science (Bsc)",
       "startDate": "2005",
-      "endDate": "2008",
-      "score": "2:1",
-      "courses": [
-        "Computer Science"
-      ],
-      "color": "#b01c2e"
+      "endDate": "2008"
     },
     {
       "institution": "Chislehurst and Sidcup Grammar School",
-      "studyType": "A Levels",
-      "startDate": "2004",
-      "endDate": "2005",
-      "score": "A-B",
-      "courses": [
-        "Computing",
-        "Maths",
-        "Psychology"
-      ],
-      "hideScore": true
-    },
-    {
-      "institution": "Chislehurst and Sidcup Grammar School",
-      "studyType": "AS Levels",
-      "startDate": "2003",
-      "endDate": "2004",
-      "score": "A-B",
-      "courses": [
-        "Classics",
-        "Economics"
-      ],
-      "hideScore": true
-    },
-    {
-      "institution": "Chislehurst and Sidcup Grammar School",
-      "studyType": "GCSEs",
+      "studyType": "GCSEs & A Levels",
       "startDate": "1998",
-      "endDate": "2004",
-      "score": "A-C",
-      "courses": [
-        "I.T",
-        "Maths",
-        "English",
-        "English Literature",
-        "History",
-        "French",
-        "Double Science",
-        "Graphic Design",
-        "Religious Studies"
-      ],
-      "hideScore": true
+      "endDate": "2005"
     }
   ],
   "projects": [
@@ -245,15 +188,11 @@
   ],
   "interests": [
     {
-      "name": "Rowing",
+      "name": "City of Bristol Rowing Club",
       "keywords": [
-        "I’ve supported and coached the City of Bristol Women's Squad since 2016, in this time we’ve grown from a small squad of just 9 athletes to over 50, and from narrowly missing qualification for the highest national club event at Henley Womens’ Regatta to finalists in 2019 (our last full racing season). I received the British Rowing Volunteer of the Year Award in 2020 for my region, and I am shortlisted for the national award."
-      ]
-    },
-    {
-      "name": "Charity Trustee",
-      "keywords": [
-        "At the City of Bristol Rowing Club, I have been a trustee for over 7 years, fulfilling roles at Men’s Captain, Club Captain and finally Chairman. This has always been a brilliant experience looking to grow our club of 300 into one of the best places to row in the country, both at a performance and recreational level."
+        "<strong class=\"text-lg text-accent\">Trustee</strong><br/> I'm incredibly proud to have served as a trustee at the club for 7 years, supporting and overseeing the club, and watching it maintain and grow it's status as one of the best places to row in the country, whilst also bringing in new people to the sport year on year. I received the <strong>British Rowing Volunteer of the Year Award</strong> in 2020 for my region.",
+        "<strong class=\"text-lg text-accent\">Coach</strong><br/>  I supported and coached the City of Bristol Women's Squad from 2016 through to 2020, in that time we grew from a small squad of just 9 athletes to over 50, competing at the highest club level nationally. I've also got experience coaching the new 'Learn to Row' courses.",
+        "<strong class=\"text-lg text-accent\">Website</strong><br/>  I built and maintain the <a class=\"link link-info\" href=\"http://www.bristolrowing.co.uk\">rowing clubs website</a>. A portal for members to manage their membership, book resources and plan events, a <strong class=\"badge badge-primary\">responsive</strong> website developed in <strong class=\"badge badge-primary\">Angular</strong> with a <strong class=\"badge badge-secondary\">PHP</strong> backend."
       ]
     },
     {

@@ -51,7 +51,7 @@ const themeButtons = [
 
 <template>
   <div class="dropdown dropdown-end">
-    <label tabIndex="{0}" class="btn btn-primary btn-outline">
+    <label tabIndex="{0}" class="btn btn-secondary btn-outline shadow">
       <div class="swap swap-flip swap-active">
         <v-icon
           v-for="icon in themeIcons"
@@ -63,7 +63,7 @@ const themeButtons = [
     </label>
     <ul
       tabIndex="{0}"
-      class="menu menu-md dropdown-content rounded-box bg-base-200 z-10 p-2 mt-2 shadow-md">
+      class="menu menu-lg dropdown-content rounded-box bg-base-200 z-10 p-2 mt-2 shadow-md">
       <li v-for="button in themeButtons" :key="button.name">
         <button @click="button.update()" :class="{ active: button.active.value }" type="button">
           <v-icon :name="button.icon" />
@@ -73,4 +73,3 @@ const themeButtons = [
     </ul>
   </div>
 </template>
-@/stores/theme.store
