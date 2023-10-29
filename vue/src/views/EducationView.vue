@@ -1,14 +1,21 @@
 <script setup lang="ts">
-import EducationExperience from '@/components/EducationExperience.vue';
+import SectionHeader from '@/components/headers/SectionHeader.vue';
+import SectionSubHeader from '@/components/headers/SectionSubHeader.vue';
+import ContentView from '@/components/ContentView.vue';
 import { useResumeStore } from '@/stores';
 const store = useResumeStore();
 </script>
 
 <template>
-  <h2 class="text-5xl m-2 max-w-prose font-extrabold tracking-tighter">Education</h2>
-  <ul class="max-w-prose">
-    <li class="p-2" v-for="experience in store.education" :key="experience.startDate">
-      <EducationExperience :experience="experience" />
-    </li>
-  </ul>
+  <ContentView>
+    <template #header>Education</template>
+    <template #content>
+      <ul>
+        <li v-for="experience in store.education" :key="experience.startDate">
+          <SectionSubHeader>{{ experience.institution }}</SectionSubHeader>
+          <p class="text-xl mb-2">{{ experience.studyType }}</p>
+        </li>
+      </ul>
+    </template>
+  </ContentView>
 </template>

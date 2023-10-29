@@ -19,8 +19,8 @@ module.exports = {
         secondary: 'hsl(var(--s) / 1)'
       },
       spacing: {
-        92: '23rem',
-        152: '38rem'
+        112: '28rem',
+        prose: '65ch'
       }
     }
   },
