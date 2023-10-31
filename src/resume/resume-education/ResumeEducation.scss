@@ -1,7 +1,0 @@
-.ResumeEducation_AwardName::after {
-  content: ', ';
-}
-
-.ResumeEducation_AwardName:last-of-type::after {
-  content: '';
-}
