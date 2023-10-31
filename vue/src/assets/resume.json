@@ -11,18 +11,18 @@
     },
     "profiles": [
       {
-        "network": "GitHub",
-        "icon": {
-          "vue": "bi-github"
-        },
-        "url": "https://github.com/ct5845/resume"
-      },
-      {
         "network": "LinkedIn",
         "icon": {
           "vue": "bi-linkedin"
         },
-        "url": "https://www.linkedin.com/in/christopher-turner-b4a2813a"
+        "url": "https://linkedin.com/in/ct5845"
+      },
+      {
+        "network": "GitHub",
+        "icon": {
+          "vue": "bi-github"
+        },
+        "url": "https://github.com/ct5845"
       }
     ],
     "url": "https://ct5845.github.io/resume"
@@ -50,24 +50,22 @@
       "position": "Web Architect",
       "startDate": "2018",
       "highlights": [
-        "Established SSDLC and Continuous Integration Lifecycles for our major web projects.",
-        "Introduced UI Unit Testing, reducing risk and transforming release cycles.",
-        "Pioneered “mobile-first” strategy, bringing our app to mobile devices, and greatly increasing usability.",
-        "Outpaced our competitors to deliver cutting edge customer experience technology to the market.",
-        "Supported a small team of novice developers to deliver quality code."
+        "Lead and mentor a team of web developers.",
+        "Established SSDLC and Continuous Integration Lifecycles, including introducing UI Unit Testing using Jasmine for our major web projects.",
+        "Focus on User Experience, utilising frameworks and technologies like Storybook and Angular Material, to help deliver consistently, at pace, and with quality."
       ],
       "color": "#fcb654"
     },
     {
       "id": 4,
-      "name": "Alterian",
+      "name": "Alterian (SDL)",
       "position": "Senior Web Developer",
       "groupWith": 5,
       "startDate": "2015",
       "endDate": "2018",
       "highlights": [
         "Consolidated and simplified our web technologies under one stack (Angular).",
-        "Engineering performant and re-usable modules to be used across various business scopes."
+        "Engineered performant and re-usable modules to be used across various business scopes."
       ],
       "color": "#fcb654"
     },
@@ -78,9 +76,8 @@
       "startDate": "2013",
       "endDate": "2015",
       "highlights": [
-        "Demonstrated advantages of rapid prototyping to help steer and define features.",
-        "Collaborated directly with clients to generate roadmaps on our products",
-        "Redesigned critical products in their “maturity phase”, integrating new technologies (Knockout, Javascript, Angular 1.x), in the end saving clients, creating quick wins, from small efforts."
+        "Collaborated directly with clients to generate roadmaps on our products, using prototyping to help steer and define features",
+        "Pioneered “mobile-first” strategy, bringing our app to mobile devices, and greatly increasing usability."
       ],
       "color": "#93186c"
     },
@@ -92,7 +89,7 @@
       "endDate": "2013",
       "groupWith": 3,
       "highlights": [
-        "Simplified the code styles in use, using industry standards to create more maintainable and manageable code base.",
+        "Redesigned critical products in their “maturity phase”, integrating new technologies (Knockout, Javascript, Angular 1.x), creating quick wins, from small efforts.",
         "Consulting Business and other Technology teams to help them improve the products; quality of requirements and usability of systems."
       ],
       "color": "#93186c"
@@ -117,8 +114,8 @@
       "startDate": "2008",
       "endDate": "2010",
       "highlights": [
-        "Spearheaded automation of testing set-up to drastically reduce turnaround times.",
-        "Engaged with Analysts and Product Owners to design prototypes to aid development."
+        "Introduced automation to testing set-up, drastically reducing turnaround times.",
+        "Engaged with Analysts and Product Owners to design wireframe prototypes to aid development."
       ],
       "color": "#93186c"
     }
@@ -193,13 +190,15 @@
         "<h4 class=\"text-2xl mb-2 text-secondary\">Trustee</h4>I'm incredibly proud to have served as a trustee at the club for 7 years, supporting and overseeing the club, and watching it maintain and grow it's status as one of the best places to row in the country, whilst also bringing in new people to the sport year on year. I received the <strong>British Rowing Volunteer of the Year Award</strong> in 2020 for my region.",
         "<h4 class=\"text-2xl mb-2 text-secondary\">Coach</h4>I supported and coached the City of Bristol Women's Squad from 2016 through to 2020, in that time we grew from a small squad of just 9 athletes to over 50, competing at the highest club level nationally. I've also got experience coaching the new 'Learn to Row' courses.",
         "<h4 class=\"text-2xl mb-2 text-secondary\">Website</h4> I built and maintain the <a class=\"link link-info\" href=\"https://www.bristolrowing.co.uk\">rowing clubs website</a>. A portal for members to manage their membership, book resources and plan events, a <strong class=\"badge badge-secondary\">responsive</strong> website developed in <strong class=\"badge badge-secondary\">Angular</strong> with a <strong class=\"badge badge-secondary\">PHP</strong> backend."
-      ]
+      ],
+      "shortText": "I'm incredibly proud to have served as a <strong>Trustee</strong> of the club for 7 years, <strong>coaching</strong> for over 10 years, whilst building and maintaining the rowing club website <a href=\"https://bristolrowing.co.uk\" class=\"text-info\">bristolrowing.co.uk</span>"
     },
     {
       "name": "Cycling",
       "keywords": [
         "All-weather commuter, fair-weather road cyclist! I love my bike(s) and whether it's sitting on the turbo or enjoying a sunny evening ride, just can't beat time on the saddle!"
-      ]
+      ],
+      "shortText": "All-weather commuter, fair-weather road cyclist! I love my bike(s) just can't beat time on the saddle!"
     }
   ],
   "awards": [

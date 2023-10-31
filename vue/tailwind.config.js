@@ -20,7 +20,11 @@ module.exports = {
       },
       spacing: {
         112: '28rem',
-        prose: '65ch'
+        prose: '65ch',
+        sm: '640px',
+        md: '768px',
+        lg: '1024px',
+        xl: '1280px'
       }
     }
   },

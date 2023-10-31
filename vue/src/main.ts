@@ -16,7 +16,9 @@ import {
   FiGb,
   MdContactpage,
   MdArrowbackiosnew,
-  MdArrowforwardios
+  MdArrowforwardios,
+  MdEmailRound,
+  MdLink
 } from 'oh-vue-icons/icons';
 import { OhVueIcon, addIcons } from 'oh-vue-icons';
 import { getTheme, setTheme, systemTheme } from '@/core/theme';
@@ -36,7 +38,9 @@ addIcons(
   BiLinkedin,
   FiGb,
   MdContactpage,
-  CT_ICON
+  CT_ICON,
+  MdEmailRound,
+  MdLink
 );
 
 const pinia = createPinia();

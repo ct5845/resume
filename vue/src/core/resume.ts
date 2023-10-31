@@ -55,6 +55,7 @@ export interface Project {
 export interface Interest {
   name: string;
   keywords: string[];
+  shortText: string;
 }
 
 export interface Resume {

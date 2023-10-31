@@ -4,7 +4,7 @@ import { computed } from 'vue';
 const props = defineProps<{ splash: boolean }>();
 
 const sideDrawerLargeClass = computed(() => (props.splash ? 'lg:hidden' : ''));
-const contentClass = computed(() => (props.splash ? '' : 'lg:col-span-1'));
+const contentClass = computed(() => (props.splash ? '' : ''));
 const footerClass = computed(() => (props.splash ? '' : 'lg:col-start-2 lg:col-span-1'));
 const sideNavToggleId = 'side-nav-open';
 </script>
@@ -13,8 +13,7 @@ const sideNavToggleId = 'side-nav-open';
   <div
     class="drawer grid gap-1 min-h-screen grid-cols-2 grid-rows-[auto_1fr_auto] md:grid-cols-[1fr_auto_auto_1fr] md:grid-rows-[auto_auto_auto] md:min-h-fit">
     <input :id="sideNavToggleId" type="checkbox" class="drawer-toggle" />
-    <header
-      class="sticky top-0 col-span-2 flex items-center p-2 backdrop-blur-sm md:col-span-4 xl:col-span-2 xl:col-start-2">
+    <header class="sticky top-0 col-span-2 flex items-center p-2 backdrop-blur-sm md:col-span-4">
       <label
         :for="sideNavToggleId"
         aria-label="open sidebar"

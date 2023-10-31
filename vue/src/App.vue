@@ -4,10 +4,11 @@ import AppHeader from '@/components/AppHeader.vue';
 import { useRoute } from 'vue-router';
 import { computed } from 'vue';
 import { HOME_ROUTE } from './router';
-import AppLayout from '@/components/AppLayout.vue';
+import WebLayout from '@/components/WebLayout.vue';
 import DrawerNavigation from '@/components/DrawerNavigation.vue';
 import RouterFooter from '@/components/RouterFooter.vue';
 import PermenantNavigationVue from '@/components/PermenantNavigation.vue';
+import PrintView from '@/views/PrintView.vue';
 
 const route = useRoute();
 const isSplash = computed(() => {
@@ -16,7 +17,7 @@ const isSplash = computed(() => {
 </script>
 
 <template>
-  <AppLayout :splash="isSplash">
+  <WebLayout class="print:hidden" :splash="isSplash">
     <template #header><AppHeader /></template>
     <template #main><RouterView /></template>
     <template #nav>
@@ -28,5 +29,6 @@ const isSplash = computed(() => {
       </v-responsive>
     </template>
     <template #footer><RouterFooter /></template>
-  </AppLayout>
+  </WebLayout>
+  <PrintView class="hidden print:grid" />
 </template>

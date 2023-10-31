@@ -4,13 +4,13 @@ import NavigationItems from './NavigationItems.vue';
 import { computed } from 'vue';
 import MyIdentity from './MyIdentity.vue';
 
-const routesNoHome = computed(() => routes.filter((route) => route.path !== HOME_ROUTE.path));
+const routesWithoutHome = computed(() => routes.filter((route) => route.path !== HOME_ROUTE.path));
 </script>
 
 <template>
-  <header class="p-2">
+  <header class="px-2 pb-2">
     <MyIdentity />
   </header>
   <div class="divider"></div>
-  <NavigationItems :routes="routesNoHome" />
+  <NavigationItems :routes="routesWithoutHome" />
 </template>

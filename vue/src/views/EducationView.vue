@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import SectionHeader from '@/components/headers/SectionHeader.vue';
 import SectionSubHeader from '@/components/headers/SectionSubHeader.vue';
 import ContentView from '@/components/ContentView.vue';
 import { useResumeStore } from '@/stores';
@@ -13,7 +12,7 @@ const store = useResumeStore();
       <ul>
         <li v-for="experience in store.education" :key="experience.startDate">
           <SectionSubHeader>{{ experience.institution }}</SectionSubHeader>
-          <p class="text-xl mb-2">{{ experience.studyType }}</p>
+          <p class="text-xl mb-2 print:mb-1 print:text-xs">{{ experience.studyType }}</p>
         </li>
       </ul>
     </template>
