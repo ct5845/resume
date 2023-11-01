@@ -12,7 +12,7 @@ const sideNavToggleId = 'side-nav-open';
 <template>
   <div
     class="drawer grid gap-1 min-h-screen grid-cols-2 grid-rows-[auto_1fr_auto] md:grid-cols-[1fr_auto_auto_1fr] md:grid-rows-[auto_auto_auto] md:min-h-fit">
-    <input :id="sideNavToggleId" type="checkbox" class="drawer-toggle" />
+    <input :id="sideNavToggleId" type="checkbox" class="drawer-toggle lg:hidden" />
     <header class="sticky top-0 col-span-2 flex items-center p-2 backdrop-blur-sm md:col-span-4">
       <label
         :for="sideNavToggleId"
