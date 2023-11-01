@@ -1,5 +1,12 @@
-This is my resume, available here;
+# Resume
 
-https://ct5845.github.io/resume/
+This is my resume! https://ct5845.github.io/resume/
 
-Written in Vue source is in /vue folder.
+A mobile, desktop and printer friendly implementation of my resume (to date).
+
+## Technologies
+
+- [x] Vue
+- [x] Pinia
+- [x] Tailwind
+- [x] DaisyUI
