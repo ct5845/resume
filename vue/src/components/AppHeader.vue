@@ -8,7 +8,7 @@ defineProps(['sideNavId']);
 </script>
 
 <template>
-  <RouterLink to="/">
+  <RouterLink aria-label="Link to home" to="/">
     <MyLogo class="w-10 h-10" />
   </RouterLink>
   <div class="flex-1"></div>

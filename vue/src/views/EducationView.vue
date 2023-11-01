@@ -11,7 +11,7 @@ const store = useResumeStore();
     <template #content>
       <ul>
         <li v-for="experience in store.education" :key="experience.startDate">
-          <SectionSubHeader>{{ experience.institution }}</SectionSubHeader>
+          <SectionSubHeader tag="h3">{{ experience.institution }}</SectionSubHeader>
           <p class="text-xl mb-2 print:mb-1 print:text-xs">{{ experience.studyType }}</p>
         </li>
       </ul>

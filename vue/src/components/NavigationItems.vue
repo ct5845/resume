@@ -6,7 +6,7 @@ defineProps<{ routes: Route[] }>();
 
 <template>
   <ul class="menu menu-lg">
-    <template v-for="route in routes" :key="route.name">
+    <template v-for="(route, index) in routes" :key="route.name">
       <li>
         <RouterLink v-slot="{ isActive }" :to="route.path" active-class="ring-2 ring-primary">
           <div
@@ -16,9 +16,9 @@ defineProps<{ routes: Route[] }>();
           <v-icon v-if="route.icon" :name="route.icon" />
           <span :class="{ 'text-primary': isActive }">{{ route.name }}</span>
         </RouterLink>
+        <div v-if="index === routes.length - 1" class="divider"></div>
       </li>
     </template>
-    <div class="divider"></div>
     <ResumeProfiles />
   </ul>
 </template>
