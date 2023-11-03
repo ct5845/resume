@@ -20,7 +20,7 @@ const name = computed(() => resumeStore.basics.name.split(' '));
     </RouterLink>
   </h1>
   <h2 class="text-4xl mt-6 text-secondary-focus font-bold tracking-wide print:mt-2 print:text-3xl">
-    {{ resumeStore.basics.label }}
+    {{ resumeStore.basics.role }}
   </h2>
   <p class="mt-2 font-medium print:mt-1">
     <span>{{ resumeStore.basics.location.city }}</span>

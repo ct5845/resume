@@ -8,7 +8,7 @@ export interface Profile {
 
 export interface Basics {
   name: string;
-  label: string;
+  role: string;
   location: {
     city: string;
     countryCode: string;

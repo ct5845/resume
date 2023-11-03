@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Christopher Turner",
-    "label": "Web Architect",
+    "role": "Web Architect",
     "location": {
       "city": "Bristol",
       "countryCode": "UK",

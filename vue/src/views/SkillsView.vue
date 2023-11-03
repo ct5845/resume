@@ -35,7 +35,7 @@ const store = useResumeStore();
         </li>
         <li>
           <SectionHeader class="my-4 print:hidden">Frameworks</SectionHeader>
-          <SectionSubHeader class="hidden print:block">Languages</SectionSubHeader>
+          <SectionSubHeader class="hidden print:block">Frameworks</SectionSubHeader>
           <ul class="print:flex print:flex-row print:flex-wrap">
             <li v-for="skill in store.skills.frameworks.primary" :key="skill">
               <span
@@ -57,7 +57,7 @@ const store = useResumeStore();
         </li>
         <li>
           <SectionHeader class="my-4 print:hidden">Tools/Other</SectionHeader>
-          <SectionSubHeader class="hidden print:block">Languages</SectionSubHeader>
+          <SectionSubHeader class="hidden print:block">Tools/Other</SectionSubHeader>
           <ul class="flex flex-row flex-wrap">
             <li v-for="skill in store.skills.tools.primary" :key="skill">
               <span class="badge badge-neutral print:badge-sm mr-2 mb-1 print:badge-ghost">
