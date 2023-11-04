@@ -23,11 +23,11 @@ const sideNavToggleId = 'side-nav-open';
       <slot name="header"></slot>
     </header>
     <nav
-      class="max-lg:drawer-side relative overflow-auto lg:row-span-2 lg:col-span-1 lg:col-start-2 z-10 lg:w-112"
+      class="max-lg:drawer-side relative overflow-auto lg:row-span-2 lg:col-span-1 lg:col-start-2 z-10 lg:w-96"
       :class="sideDrawerLargeClass">
       <label :for="sideNavToggleId" aria-label="close sidebar" class="drawer-overlay"></label>
       <div
-        class="backdrop-blur lg:fixed lg:w-112 lg:top-16 bg-base-200/80 h-full p-2 lg:bg-base-100 overflow-y-auto">
+        class="backdrop-blur lg:fixed lg:w-96 lg:top-16 bg-base-200/80 h-full p-2 lg:bg-base-100 overflow-y-auto">
         <slot name="nav"></slot>
       </div>
     </nav>

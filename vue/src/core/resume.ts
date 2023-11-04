@@ -6,14 +6,17 @@ export interface Profile {
   url: string;
 }
 
+export interface BasicLocation {
+  city: string;
+  countryCode: string;
+  icon: IconKey;
+}
+
 export interface Basics {
   name: string;
   role: string;
-  location: {
-    city: string;
-    countryCode: string;
-    icon: IconKey;
-  };
+  email: string;
+  location: BasicLocation;
   profiles: Profile[];
   url: string;
 }

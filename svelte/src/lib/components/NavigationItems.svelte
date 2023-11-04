@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import type { Basics, Route } from '$lib/core';
-	import Profiles from '$lib/components/Profiles.svelte';
+	import Profiles from '$lib/components/content/Profiles.svelte';
 	import Icon from '@iconify/svelte';
 	export let routes: Route[];
 	export let basics: Basics;

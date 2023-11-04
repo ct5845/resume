@@ -25,10 +25,10 @@
 		<slot name="header" />
 	</header>
 	<nav
-		class="relative z-10 overflow-auto max-lg:drawer-side lg:col-span-1 lg:col-start-2 lg:row-span-2 lg:w-112 {sideDrawerLargeClass}">
+		class="relative z-10 overflow-auto max-lg:drawer-side lg:col-span-1 lg:col-start-2 lg:row-span-2 lg:w-96 {sideDrawerLargeClass}">
 		<label for={sideNavToggleId} aria-label="close sidebar" class="drawer-overlay"></label>
 		<div
-			class="h-full overflow-y-auto bg-base-200/80 p-2 backdrop-blur lg:fixed lg:top-16 lg:w-112 lg:bg-base-100">
+			class="h-full overflow-y-auto bg-base-200/80 p-2 backdrop-blur lg:fixed lg:top-16 lg:w-96 lg:bg-base-100">
 			<slot name="nav" />
 		</div>
 	</nav>

@@ -18,6 +18,7 @@ export interface Basics {
 	location: BasicLocation;
 	profiles: Profile[];
 	url: string;
+	email: string;
 }
 
 export interface Work {

@@ -16,7 +16,7 @@
 			</section>
 		{:else}
 			<section class="flex min-h-[75vh] flex-row items-center">
-				<Navigation {basics} routes={ROUTES_NO_HOME}>
+				<Navigation {basics} showHeader routes={ROUTES_NO_HOME}>
 					<Identity
 						slot="header"
 						name={basics.name}

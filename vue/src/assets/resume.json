@@ -2,6 +2,7 @@
   "basics": {
     "name": "Christopher Turner",
     "role": "Web Architect",
+    "email": "ct5845@gmail.com",
     "location": {
       "city": "Bristol",
       "countryCode": "UK",
@@ -191,7 +192,7 @@
         "<h4 class=\"text-2xl mb-2 text-secondary\">Coach</h4>I supported and coached the City of Bristol Women's Squad from 2016 through to 2020, in that time we grew from a small squad of just 9 athletes to over 50, competing at the highest club level nationally. I've also got experience coaching the new 'Learn to Row' courses.",
         "<h4 class=\"text-2xl mb-2 text-secondary\">Website</h4> I built and maintain the <a class=\"link link-info\" href=\"https://www.bristolrowing.co.uk\">rowing clubs website</a>. A portal for members to manage their membership, book resources and plan events, a <strong class=\"badge badge-secondary\">responsive</strong> website developed in <strong class=\"badge badge-secondary\">Angular</strong> with a <strong class=\"badge badge-secondary\">PHP</strong> backend."
       ],
-      "shortText": "I'm incredibly proud to have served as a <strong>Trustee</strong> of the club for 7 years, <strong>coaching</strong> for over 10 years, whilst building and maintaining the rowing club website <a href=\"https://bristolrowing.co.uk\" class=\"text-info\">bristolrowing.co.uk</span>"
+      "shortText": "I'm incredibly proud to have served as a <strong>Trustee</strong> of the club for 7 years, <strong>coaching</strong> for over 10 years, whilst building and maintaining the rowing club website <a href=\"https://bristolrowing.co.uk\" class=\"text-info\">bristolrowing.co.uk</a>"
     },
     {
       "name": "Cycling",

@@ -3,13 +3,14 @@
 	import NavigationItems from '$lib/components/NavigationItems.svelte';
 	export let routes: Route[];
 	export let basics: Basics;
+	export let showHeader = false;
 </script>
 
-{#if $$slots.header}
+{#if showHeader}
 	<header class="px-2 pb-2">
 		<slot name="header" />
 	</header>
-	<div class="divider px-2"></div>
+	<div class="divider"></div>
 {/if}
 
 <NavigationItems {basics} {routes} />

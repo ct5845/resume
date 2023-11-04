@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Icon from '@iconify/svelte';
-	import Profiles from '$lib/components/Profiles.svelte';
+	import Profiles from '$lib/components/content/Profiles.svelte';
 	import type { Basics } from '$lib/core';
 
 	let basics: Basics;

@@ -18,7 +18,6 @@ export const theme = {
       secondary: 'hsl(var(--s) / 1)'
     },
     spacing: {
-      112: '28rem',
       prose: '65ch',
       sm: '640px',
       md: '768px',
