@@ -25,7 +25,7 @@
 	<Header {basics} slot="header" />
 	<slot slot="main" />
 	<Footer slot="footer" />
-	<Navigation slot="nav" {basics} {routes} {showHeader}>
+	<Navigation slot="nav" {routes} {showHeader}>
 		<Identity name={basics.name} role={basics.role} location={basics.location} slot="header" />
 	</Navigation>
 </Layout>

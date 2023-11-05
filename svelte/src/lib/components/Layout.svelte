@@ -1,14 +1,11 @@
 <script lang="ts">
 	import Icon from '@iconify/svelte';
-
 	let splash: boolean;
 	let className: string;
-
 	$: sideDrawerLargeClass = splash ? 'lg:hidden' : '';
 	$: contentClass = splash ? '' : '';
 	$: footerClass = splash ? '' : 'lg:col-start-2 lg:col-span-1';
 	const sideNavToggleId = 'side-nav-open';
-
 	export { splash, className as class };
 </script>
 
