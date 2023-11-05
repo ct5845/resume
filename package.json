@@ -10,6 +10,6 @@
     "build:svelte": "cd ./svelte & npm run build",
     "build:vue": "cd ./vue & npm run build",
     "predeploy": "npm run build:vue & npm run build:svelte",
-    "deploy": "gh-pages-clean & gh-pages -d ./vue/dist -e /vue & gh-pages -d ./svelte/dist -e /svelte"
+    "deploy": "gh-pages -d ./vue/dist -e /vue & gh-pages -d ./svelte/dist -e /svelte"
   }
 }
