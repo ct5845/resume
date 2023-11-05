@@ -1,7 +1,7 @@
 {
   "name": "resume",
   "version": "1.0.0",
-  "homepage": "https://ct5845.github.io/resume/",
+  "homepage": "https://github.com/ct5845/resume",
   "private": false,
   "dependencies": {
     "gh-pages": "^6"
