@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="" class="h-full">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/resume/svelte/favicon.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans" rel="stylesheet" />
+		
+		<link rel="modulepreload" href="/resume/svelte/_app/immutable/entry/start.ebd5fbf4.js">
+		<link rel="modulepreload" href="/resume/svelte/_app/immutable/chunks/scheduler.e6c64fcf.js">
+		<link rel="modulepreload" href="/resume/svelte/_app/immutable/chunks/singletons.9df9a8c9.js">
+		<link rel="modulepreload" href="/resume/svelte/_app/immutable/entry/app.54de36ba.js">
+		<link rel="modulepreload" href="/resume/svelte/_app/immutable/chunks/index.2f49cff9.js">
+	</head>
+	<body data-sveltekit-preload-data="hover" class="m-h-full print:bg-white print:text-xs">
+		<div style="display: contents">
+			<script>
+				{
+					__sveltekit_17mbuqg = {
+						assets: "/resume/svelte",
+						base: "/resume/svelte",
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("/resume/svelte/_app/immutable/entry/start.ebd5fbf4.js"),
+						import("/resume/svelte/_app/immutable/entry/app.54de36ba.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
