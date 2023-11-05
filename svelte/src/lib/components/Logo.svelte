@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { CT_LOGO } from '$lib/core';
 	let className: string;
-
 	export { className as class };
 </script>
 

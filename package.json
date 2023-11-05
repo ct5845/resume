@@ -4,7 +4,8 @@
   "homepage": "https://github.com/ct5845/resume",
   "private": false,
   "dependencies": {
-    "gh-pages": "^6"
+    "gh-pages": "^6",
+    "sloc": "^0.3.0"
   },
   "scripts": {
     "build:svelte": "cd ./svelte & npm run build",

@@ -1,11 +1,6 @@
 <script lang="ts">
 	import Icon from '@iconify/svelte';
 	import Profiles from '$lib/components/content/Profiles.svelte';
-	import type { Basics } from '$lib/core';
-
-	let basics: Basics;
-
-	export { basics };
 </script>
 
 <div class="dropdown dropdown-end ml-2">
@@ -17,6 +12,6 @@
 		tabIndex="0"
 		id="profile-menu"
 		class="menu dropdown-content rounded-box menu-lg z-10 mt-2 bg-base-200 p-2 shadow-md">
-		<Profiles {basics} />
+		<Profiles />
 	</ul>
 </div>
