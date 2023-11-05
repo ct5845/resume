@@ -10,6 +10,7 @@
 		WORK_ROUTE
 	} from '$lib/core';
 	import type { Route } from '$lib/core';
+	import { base } from "$app/paths";
 
 	let routes: { next?: Route; prev?: Route };
 	$: switch ($page.url.pathname) {
@@ -35,7 +36,7 @@
 
 {#if routes}
 	{#if routes.prev}
-		<a href={routes.prev.path} class="btn shadow">
+		<a href="{base}/{routes.prev.path}" class="btn shadow">
 			<Icon class="text-lg" icon="ion:chevron-back" />
 			<div class="flex flex-col items-start">
 				<span class="text-sm font-bold">{routes.prev.name}</span>
@@ -45,7 +46,7 @@
 	{/if}
 	<div class="flex-1"></div>
 	{#if routes.next}
-		<a href={routes.next.path} class="btn btn-neutral shadow-md">
+		<a href="{base}/{routes.next.path}" class="btn btn-neutral shadow-md">
 			<div class="flex flex-col items-start">
 				<span class="text-sm font-bold">{routes.next.name}</span>
 				<span class="text-xs font-thin">Next</span>

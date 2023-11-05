@@ -7,9 +7,9 @@
     "gh-pages": "^6"
   },
   "scripts": {
+    "build:svelte": "cd ./svelte & npm run build",
     "build:vue": "cd ./vue & npm run build",
-    "cleandeploy": "gh-pages-clean",
-    "predeploy": "npm run build:vue",
-    "deploy": "gh-pages-clean & gh-pages -d ./vue/dist"
+    "predeploy": "npm run build:vue & npm run build:svelte",
+    "deploy": "gh-pages-clean & gh-pages -d ./vue/dist -e /vue & gh-pages -d ./svelte/dist -e /svelte"
   }
 }

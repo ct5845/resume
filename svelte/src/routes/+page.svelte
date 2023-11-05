@@ -6,6 +6,8 @@
 	import { ROUTES_NO_HOME, MEDIA_QUERIES } from '$lib/core';
 
 	const basics = resume.basics;
+
+
 </script>
 
 <MediaQuery query={MEDIA_QUERIES} let:matches>

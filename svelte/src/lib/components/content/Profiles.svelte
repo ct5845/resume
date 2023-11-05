@@ -14,7 +14,7 @@
 </li>
 {#each basics.profiles as profile}
 	<li class="text-info print:mb-1">
-		<a href={profile.url}>
+		<a href="{profile.url}">
 			<Icon icon={profile.icon['svelte']} class="print:mr-1 inline" />
 			<span class="print:hidden">{profile.network}</span>
 			<span class="hidden print:inline">{profile.url.replace('https://', '')}</span>

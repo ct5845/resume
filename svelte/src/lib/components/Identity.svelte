@@ -1,6 +1,8 @@
 <script lang="ts">
 	import type { BasicLocation } from '$lib/core';
 	import Icon from '@iconify/svelte';
+	import { base } from '$app/paths';
+
 	let name: string;
 	let role: string;
 	let location: BasicLocation;
@@ -12,9 +14,8 @@
 
 <h1 class="text-6xl font-extrabold leading-[5.1rem] print:text-5xl">
 	<a
-		href="/"
-		class="bg-gradient-to-r from-primary to-secondary box-decoration-clone px-4 text-white print:bg-none print:px-0 print:text-primary"
-	>
+		href={base}
+		class="bg-gradient-to-r from-primary to-secondary box-decoration-clone px-4 text-white print:bg-none print:px-0 print:text-primary">
 		{#each splitName as token}
 			{token}
 			<br class="print:hidden" />

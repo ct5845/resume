@@ -1,17 +1,17 @@
 <script lang="ts">
 	import { page } from '$app/stores';
-	import type { Basics, Route } from '$lib/core';
+	import type { Route } from '$lib/core';
 	import Profiles from '$lib/components/content/Profiles.svelte';
 	import Icon from '@iconify/svelte';
+	import { base } from "$app/paths";
 	export let routes: Route[];
-	export let basics: Basics;
 </script>
 
 <ul class="menu menu-lg">
 	{#each routes as route, index}
 		{@const active = $page.url.pathname === route.path}
 		<li>
-			<a href={route.path} class={active ? 'ring-2 ring-primary' : ''}>
+			<a href="{base}{route.path}" class={active ? 'ring-2 ring-primary' : ''}>
 				{#if route.iconClass}
 					<div class="mx-1 h-4 w-4 {route.iconClass} {active ? 'bg-primary' : 'bg-neutral'}"></div>
 				{/if}
@@ -26,5 +26,5 @@
 		</li>
 	{/each}
 
-	<Profiles {basics} />
+	<Profiles />
 </ul>
