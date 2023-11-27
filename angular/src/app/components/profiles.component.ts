@@ -14,7 +14,7 @@ const resume = resumeJSON;
   template: `
     <li class="hidden text-info print:mb-1 print:list-item">
       <ng-icon name="matEmail" class="print:mr-1 inline" />
-      <span>ct5845@gmail.com</span>
+      <span>ct5845&#64;gmail.com</span>
     </li>
     <li class="hidden text-info print:mb-1 print:list-item">
       <ng-icon name="matLink" class="inline" />
