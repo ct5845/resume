@@ -1,0 +1,39 @@
+{
+  "name": "angular",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^16",
+    "@angular/common": "^16",
+    "@angular/compiler": "^16",
+    "@angular/core": "^16",
+    "@angular/cdk": "^16",
+    "@angular/forms": "^16",
+    "@angular/platform-browser": "^16",
+    "@angular/platform-browser-dynamic": "^16",
+    "@angular/router": "^16",
+    "rxjs": "~7.8.0",
+    "tslib": "^2",
+    "zone.js": "~0.13.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^16",
+    "@angular/cli": "^16",
+    "@angular/compiler-cli": "^16",
+    "@ng-icons/bootstrap-icons": "^25",
+    "@ng-icons/core": "^25",
+    "@ng-icons/heroicons": "^25",
+    "@ng-icons/material-icons": "^25",
+    "autoprefixer": "^10",
+    "daisyui": "^3",
+    "postcss": "^8",
+    "tailwindcss": "^3",
+    "typescript": "~5.1.3"
+  }
+}

@@ -28,7 +28,7 @@ Built in 2 different stacks to learn and compare.
 
 ## Comparison
 
-Caveat!! Vue was the first project I did, and I do/should loop back round to it to optimise. This is based on a reaaaallly small project with no complex components, so take these with a pinch of salt, it's more for my own reflection.
+Caveat!! Vue was the first project I did, and I should loop back round to it to optimise. This is based on a reaaaallly small project with no complex components, so take these with a pinch of salt, it's more for my own reflection.
 
 ### Lines of Code
 
