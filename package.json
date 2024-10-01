@@ -1,18 +1,19 @@
 {
   "name": "resume",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "homepage": "https://github.com/ct5845/resume",
   "private": false,
-  "dependencies": {
-    "gh-pages": "^6",
-    "sloc": "^0.3.0"
-  },
   "scripts": {
-    "build:svelte": "cd ./svelte & npm run build",
-    "run:svelte": "cd ./svelte & npm run dev",
+    "svelte:build": "cd ./apps/svelte & npm run build",
+    "svelte:dev": "cd ./apps/svelte & npm run dev",
+    "svelte:preview": "cd ./apps/svelte & npm run preview",
     "build:vue": "cd ./vue & npm run build",
-    "run:vue": "cd ./vue & npm run dev",
-    "predeploy": "npm run build:vue & npm run build:svelte",
-    "deploy": "gh-pages -d ./vue/dist -e /vue & gh-pages -d ./svelte/dist -e /svelte"
+    "run:vue": "cd ./vue & npm run dev"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-static": "^3.0.5",
+    "@tailwindcss/typography": "^0.5.15",
+    "daisyui": "^4.12.10",
+    "marked": "^14.1.2"
   }
 }

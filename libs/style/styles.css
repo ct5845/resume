@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body {
+    @apply min-h-screen;
+    @apply h-full;
+  }
+
+  html {
+    @apply prose-sm md:prose-base xl:prose-lg;
+  }
+
+  h2 {
+    @apply border-b pb-2 border-base-200;
+  }
+
+  h2, h3, h4 {
+    page-break-after: avoid;
+  }
+
+  h1 {
+    @apply print:!text-3xl print:!mb-2;
+  }
+
+  h2 {
+    @apply print:!text-lg;
+  }
+
+  h3 {
+    @apply print:!text-sm;
+  }
+
+  p, li {
+    @apply print:!text-xs;
+  }
+}
+
+@layer utilities {
+  .popover {
+    position: absolute;
+    top: anchor(bottom);
+    justify-self: anchor-center;
+    @apply mt-1 py-2 px-4 rounded-md shadow-z1 border-2;
+  }
+
+  .popover-base-200 {
+    @apply bg-base-200 text-base-content border-base-300;
+  }
+
+  .popover-primary {
+    @apply bg-primary text-primary-content border-base-300;
+  }
+}
