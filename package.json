@@ -9,7 +9,9 @@
   },
   "scripts": {
     "build:svelte": "cd ./svelte & npm run build",
+    "run:svelte": "cd ./svelte & npm run dev",
     "build:vue": "cd ./vue & npm run build",
+    "run:vue": "cd ./vue & npm run dev",
     "predeploy": "npm run build:vue & npm run build:svelte",
     "deploy": "gh-pages -d ./vue/dist -e /vue & gh-pages -d ./svelte/dist -e /svelte"
   }
