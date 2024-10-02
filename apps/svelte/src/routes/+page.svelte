@@ -33,12 +33,12 @@ Introduced automation to reduce testing times and improve quality. Worked closel
 <li><strong>Historic:</strong> C#, VB6, .NET, SQL Server.</li>
 </ul>
 <h2>Projects</h2>
-<p><em><strong><a href="https://bristolrowing.co.uk">BristolRowing.co.uk</a></strong></em> -
+<p><strong><a href="https://bristolrowing.co.uk">BristolRowing.co.uk</a></strong> -
  Designed and developed the website for the rowing club, integrating membership, resources, and event management.</p>
 <h2>Education</h2>
 <p><strong>Bristol University</strong> - 2:1 Computer science (BSc)<br><strong>Chislehurst and Sidcup Grammar School</strong> - GCSEs and A Levels</p>
 <h2>Additional Leadership Roles</h2>
 <p><strong>Trustee, City of Bristol Rowing Club <em>(2013 to 2019)</em></strong></p>
 <p>Supported a large membership base and contributed to setting the charity&#39;s strategic direction.<br>Helped guide the charity’s operations, ensuring the delivery of key services while managing a substantial annual turnover.</p>
-<p><strong>Head Coach, of the City of Bristol Rowing Club Women&#39;s Squad <em>(2016 to 2021)</em></strong></p>
+<p><strong>Head Coach, City of Bristol Rowing Club Women&#39;s Squad <em>(2016 to 2021)</em></strong></p>
 <p>Led a performance sports team, successfully increasing both participation and overall team performance.<br>Focused on a culture of care, building performance through the process, and helping individuals find their own better than before.</p>

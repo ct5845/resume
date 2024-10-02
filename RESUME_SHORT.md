@@ -37,7 +37,7 @@
 
 ## Projects
 
-***[BristolRowing.co.uk](https://bristolrowing.co.uk)*** -
+**[BristolRowing.co.uk](https://bristolrowing.co.uk)** -
  Designed and developed the website for the rowing club, integrating membership, resources, and event management.
 
 ## Education

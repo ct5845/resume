@@ -1,7 +1,7 @@
 import tailwindTypography from "@tailwindcss/typography";
 import colors from "tailwindcss/colors";
 import daisyui from "daisyui";
-import scaling from "./scaling.plugin";
+import spacingMq from "./spacing-mq.plugin";
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -11,9 +11,9 @@ export default {
     },
     extend: {
       boxShadow: {
-        z1: '8px 8px 0 0 rgb(0 0 0 / 0.65);',
-        z2: '10px 10px 0 0 rgb(0 0 0 / 0.75);',
-        z3: '14px 14px 0 0 rgb(0 0 0 / 0.85);',
+        'z1': '8px 8px 0 0 rgb(0 0 0 / 0.5);',
+        'z2': '10px 10px 0 0 rgb(0 0 0 / 0.5);',
+        'z3': '14px 14px 0 0 rgb(0 0 0 / 0.5);',
       }
     }
   },
@@ -42,7 +42,7 @@ export default {
   plugins: [
     tailwindTypography,
     daisyui,
-    scaling,
+    spacingMq,
   ],
 };
 

@@ -7,8 +7,7 @@
     "svelte:build": "cd ./apps/svelte & npm run build",
     "svelte:dev": "cd ./apps/svelte & npm run dev",
     "svelte:preview": "cd ./apps/svelte & npm run preview",
-    "build:vue": "cd ./vue & npm run build",
-    "run:vue": "cd ./vue & npm run dev"
+    "resume:build": "npx marked -i RESUME_SHORT.md -o apps/svelte/src/routes/+page.svelte"
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "^3.0.5",

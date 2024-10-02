@@ -38,6 +38,6 @@
 >
 	<LinkIcon />
 </button>
-<div role="tooltip" popover="" class="popover popover-base-200" style="position-anchor: --{id}" {id}>
+<div role="tooltip" popover="" class="popover popover-base-100" style="position-anchor: --{id}" {id}>
 	{popoverText}
 </div>

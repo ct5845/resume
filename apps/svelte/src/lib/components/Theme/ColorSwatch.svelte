@@ -10,9 +10,9 @@
 </script>
 
 <section class="rounded aspect-video shadow-z3 overflow-hidden border-2 flex" data-theme="{theme}">
-  <div class="bg-base-100 p-scale flex flex-col justify-end gap-scale grow">
+  <div class="bg-base-100 p-mq flex flex-col justify-end gap-mq grow">
     <h3 class="text-base-content text-4xl" aria-label="Contrast for Surface colors">{theme}</h3>
-    <div class="flex gap-scale" aria-label="Theme Colors">
+    <div class="flex gap-mq" aria-label="Theme Colors">
       {#each themeColors as color}
         <div class="{color.bg} grow max-w-14 sm:max-w-20 md:max-w-24 aspect-square flex items-center justify-center" aria-label={color.name}>
           <span class={color.fg} aria-label="Contract for {color.name} Color">A</span>

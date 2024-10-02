@@ -6,10 +6,10 @@
 </script>
 
 <div
-	class="grid grid-cols-[minmax(0,auto)_minmax(0,75ch)_minmax(0,auto)] px-scale print:px-0 size-full"
+	class="grid grid-cols-[minmax(0,auto)_minmax(0,75ch)_minmax(0,auto)] px-mq print:px-0 size-full"
 >
 	<div></div>
-	<main class="flex flex-col gap-scale">
+	<main class="flex flex-col gap-mq">
 		<Header />
 		<div class="grow prose max-w-none text-pretty">
 			{@render children()}

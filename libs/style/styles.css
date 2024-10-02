@@ -6,6 +6,7 @@
   html, body {
     @apply min-h-screen;
     @apply h-full;
+    @apply print:!text-black;
   }
 
   html {
@@ -42,14 +43,22 @@
     position: absolute;
     top: anchor(bottom);
     justify-self: anchor-center;
-    @apply mt-1 py-2 px-4 rounded-md shadow-z1 border-2;
+    @apply mt-1 py-2 px-4 rounded-md shadow-z1 border-solid border-2;
+  }
+
+  .popover-base-100 {
+    @apply bg-base-100 text-base-content border-base-content;
   }
 
   .popover-base-200 {
     @apply bg-base-200 text-base-content border-base-300;
   }
 
+  .popover-base-300 {
+    @apply bg-base-300 text-base-content border-base-200;
+  }
+
   .popover-primary {
-    @apply bg-primary text-primary-content border-base-300;
+    @apply bg-primary text-primary-content;
   }
 }
