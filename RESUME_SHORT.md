@@ -1,6 +1,6 @@
 ## Experience
 
-### Senior Web Developer ➠ Principal Web Developer
+### Senior Web Developer ➠ Lead Web Developer
 
 ***Alterian (2015 to Present)***
 

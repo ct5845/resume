@@ -2,7 +2,7 @@
 
 ### Alterian _(2015 to Present)_
 
-**Senior Web Developer ➠ Principal Web Developer**
+**Senior Web Developer ➠ Lead Web Developer**
 
 - #### Leadership and Mentorship
   Lead a team of web developers, helping to guide Junior Developers into Senior roles, fostering a culture of collaboration, growth, and continuous learning in a transparent environment.
