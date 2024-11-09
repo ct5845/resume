@@ -6,12 +6,10 @@
 Lead and mentor a team of web developers, fostering a culture of collaboration, growth, and continuous learning in a transparent environment.</li>
 <li><strong>Product and UX:</strong>
 Shaping requirements, designing solutions, and prioritizing new features to align with business objectives.</li>
-<li><strong>Technology Unification:</strong>
-Integrated frameworks like <strong>Angular</strong>, <strong>Material</strong>, and <strong>Tailwind CSS</strong>, for greater performance and efficiency.</li>
+<li><strong>High-Performance Web Architecture:</strong>
+Develop and optimize two robust web stacks; one using <strong>Angular</strong>, <strong>Material</strong>, and <strong>Tailwind CSS</strong>, and another with <strong>Go</strong>, <strong>HTMX</strong>, and <strong>AlpineJS</strong> to deliver efficient, high-performing websites with great accessibility tailored to diverse project needs.</li>
 <li><strong>DevOps and CI/CD:</strong>
 Improved deployment with <strong>Docker</strong>, <strong>Bitbucket Pipelines</strong>, and AWS.</li>
-<li><strong>Process Implementation:</strong>
-Established SSDLC processes for secure, high-quality code.</li>
 </ul>
 <h3>System Tester ➠ DevOps ➠ Senior Web Developer</h3>
 <p><em><strong>Computershare (2008 to 2015)</strong></em></p>
@@ -27,8 +25,8 @@ Introduced automation to reduce testing times and improve quality. Worked closel
 </ul>
 <h2>Skills</h2>
 <ul>
-<li><strong>Core:</strong> Angular, Typescript, JavaScript, MySQL, PHP.</li>
-<li><strong>Tools and Libraries:</strong> Tailwind CSS, Angular Material, Docker, AWS, Vercel.</li>
+<li><strong>Core:</strong> Angular, Typescript, JavaScript, MySQL, PHP, Go.</li>
+<li><strong>Tools and Libraries:</strong> Tailwind CSS, Angular Material, Docker, AWS (Cognito, Verified Permissions), HTMX, AlpineJS.</li>
 <li><strong>Other:</strong> Nx, Git, Bitbucket, Contentful, Directus, Figma.</li>
 <li><strong>Historic:</strong> C#, VB6, .NET, SQL Server.</li>
 </ul>

@@ -8,12 +8,10 @@
   Lead and mentor a team of web developers, fostering a culture of collaboration, growth, and continuous learning in a transparent environment.
 - **Product and UX:**
   Shaping requirements, designing solutions, and prioritizing new features to align with business objectives.
-- **Technology Unification:**
-  Integrated frameworks like **Angular**, **Material**, and **Tailwind CSS**, for greater performance and efficiency.
+- **High-Performance Web Architecture:**
+  Develop and optimize two robust web stacks; one using **Angular**, **Material**, and **Tailwind CSS**, and another with **Go**, **HTMX**, and **AlpineJS** to deliver efficient, high-performing websites with great accessibility tailored to diverse project needs.
 - **DevOps and CI/CD:**
   Improved deployment with **Docker**, **Bitbucket Pipelines**, and AWS.
-- **Process Implementation:**
-  Established SSDLC processes for secure, high-quality code.
 
 ### System Tester ➠ DevOps ➠ Senior Web Developer
 
@@ -30,8 +28,8 @@
 
 ## Skills
 
-- **Core:** Angular, Typescript, JavaScript, MySQL, PHP.
-- **Tools and Libraries:** Tailwind CSS, Angular Material, Docker, AWS, Vercel.
+- **Core:** Angular, Typescript, JavaScript, MySQL, PHP, Go.
+- **Tools and Libraries:** Tailwind CSS, Angular Material, Docker, AWS (Cognito, Verified Permissions), HTMX, AlpineJS.
 - **Other:** Nx, Git, Bitbucket, Contentful, Directus, Figma.
 - **Historic:** C#, VB6, .NET, SQL Server.
 
