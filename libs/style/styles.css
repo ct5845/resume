@@ -22,11 +22,11 @@
   }
 
   h1 {
-    @apply print:!text-3xl print:!mb-2;
+    @apply print:!text-3xl;
   }
 
   h2 {
-    @apply print:!text-lg;
+    @apply print:!text-lg print:!mt-0;
   }
 
   h3 {
@@ -35,6 +35,10 @@
 
   p, li {
     @apply print:!text-xs;
+  }
+
+  hr {
+    @apply hidden;
   }
 }
 

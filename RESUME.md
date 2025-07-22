@@ -1,74 +1,56 @@
 ## Professional Summary
 
-**Experienced technical leader with 17+ years in web development and team leadership.** Currently leading development teams and driving technical strategy at Alterian, with expanded responsibilities across product development, DevOps implementation, and business collaboration. Proven track record in modernizing technology stacks, mentoring developers, and translating business requirements into scalable technical solutions. Strong background in full-stack development with growing expertise in cloud infrastructure and modern development practices.
-
-## Core Technical Skills
-
-### **Web Development**
-Go • Angular • TypeScript • JavaScript • HTML5 • CSS3 • SASS • LESS • Tailwind CSS • Angular Material • Responsive Design • Mobile-First Development
-
-### **Backend & Database**
-PHP • MySQL • Node.js • RESTful APIs • Database Design • Server Architecture
-
-### **Development Tools & Practices**
-Git • Bitbucket • Nx Monorepos • Agile Development • Code Reviews • Testing Strategies • Secure Development Practices
-
-### **DevOps & Infrastructure**
-Docker • CI/CD Pipelines • Bitbucket Pipelines • AWS (ECS, Terraform, DynamoDB, Athena) • Deployment Automation • Infrastructure Monitoring
-
-### **Design & Content Management**
-Figma • Storyblok • Contentful • Directus • UX Design Collaboration • Wireframing • Requirements Gathering
+**Experienced technical leader with 17+ years in web development and team leadership.** Currently leading development teams and driving technical strategy at Alterian, with expanded responsibilities across product development, DevOps implementation, and business collaboration. Proven track record in modernizing technology stacks, mentoring developers, and translating business requirements into scalable technical solutions. Strong background in full-stack development, modern development practices, with growing expertise in cloud infrastructure.
 
 ---
 
 ## Experience
 
-### **Alterian** _(2015 to Present)_
-**Senior Web Developer ➠ Lead Web Developer**
+### **Senior Web Developer ➠ Lead Web Developer**
+***Alterian (2015 to Present)***
 
-#### **Leadership and Team Development**
-- **Lead a team of web developers**, providing mentorship and guidance to help Junior Developers progress into Senior roles
-- **Foster collaborative culture** focused on continuous learning, knowledge sharing, and professional growth in transparent team environment
-- **Collaborate closely with stakeholders** across different business functions to align technical solutions with company objectives
+- **Leadership & Team Development:**
+  Provide technical leadership and mentoring to development team members, guiding Junior Developers into Senior roles while fostering collaborative culture focused on continuous learning, cross-functional collaboration and code reviews.
+- **Product Strategy & UX Enhancement:**
+  Play key role in product UX improvements, contributing to design discussions and feature prioritization aligned with business objectives. Bridge communication between technical and non-technical teams, managing stakeholder expectations and translating business requirements into technical solutions.
+- **Technical Architecture:**
+  Led two major technology transformations: First, unified web stack migration to **Angular**, **Material Design**, **Nx monorepos**, **Tailwind CSS**, and **Storybook** with atomic design principles, improving development efficiency and code reusability. Currently leading strategic shift to **GO-based web solutions**, delivering improved developer productivity, enhanced performance, and reduced CI/CD times while expanding UI team capabilities to full-stack development.
+- **DevOps & Infrastructure Modernization:**
+  Led migration from manual 6-weekly deployments to automated CI/CD using **Docker**, **ECS Fargate**, and **Bitbucket Pipelines**, gaining full deployment control and enabling continuous delivery. Established secure development practices (SSDLC) and comprehensive testing strategy reducing deployment risks and improving system reliability.
+- **Cloud Architecture & AI/ML Integration:**
+  Developed expertise across AWS ecosystem including ECS, Lambda, Cognito, S3, EventBridge, and Terraform for infrastructure as code, supporting scalable cloud-native architecture. Implemented AWS Bedrock for LLM chat capabilities and AI-powered features.
 
-#### **Product Development and UX Enhancement**
-- **Play key role in product UX improvements**, actively contributing to design discussions and feature prioritization aligned with business goals
-- **Bridge communication** between technical and non-technical teams, helping shape requirements and product direction
-- **Contribute to product discovery process**, evaluating technical feasibility and implementation approaches for new features
+### **System Tester ➠ DevOps ➠ Senior Web Developer**
+***Computershare (2008 to 2015)***
 
-#### **Technical Architecture and Development**
-- **Led unification of technology stack** implementing Angular, Material Design, Nx monorepos, and Tailwind CSS to improve development efficiency and code maintainability
-- **Modernized legacy codebase** reducing technical debt and improving application performance through strategic refactoring
-- **Established coding standards and best practices** across development team, improving code quality and consistency
+- **Mobile-First Innovation:**
+  Championed mobile-first and progressive enhancement strategies for legacy applications, establishing responsive design standards adopted across teams.
+- **Client Engagement & Stakeholder Management:**
+  Regularly engaged with business clients to demonstrate features, gather feedback, and ensure product evolution aligned with customer needs through structured stakeholder management and requirements analysis.
+- **DevOps & Automation:**
+  Transitioned through DevOps role gaining 3rd line support experience while contributing to feature development across multiple products, coordinating development resources and managing technical risk assessment.
+- **Testing Automation:**
+  Introduced automation processes to reduce testing time and improve efficiency. Expanded into wireframing and requirements gathering with product owners, facilitating resource planning and process optimization.
 
-#### **DevOps and Process Implementation**
-- **Enhanced CI/CD pipeline** utilizing Docker and Bitbucket Pipelines, streamlining deployment processes and reducing manual intervention
-- **Implemented testing strategy** as part of Software Development Life Cycle (SDLC), improving code quality and reducing production issues
-- **Established secure development practices (SSDLC)** ensuring security considerations are integrated throughout development lifecycle
-- **Growing AWS expertise** through infrastructure improvements and cloud service integration
+---
 
-### **Computershare** _(2008 to 2015)_
-**System Tester ➠ DevOps ➠ Senior Web Developer**
+## Core Technical Skills
 
-#### **Career Progression and Automation**
-- **Started as System Tester**, quickly introducing automation processes to reduce testing time and improve efficiency
-- **Expanded into wireframing and requirements gathering**, working alongside product owners to bridge communication between product and development teams
-- **Transitioned to DevOps role**, gaining experience in 3rd line support while contributing to feature development across multiple products
+**Frontend:** Angular • TypeScript • JavaScript • Tailwind CSS • Angular Material • HTMX • AlpineJS • Responsive Design
 
-#### **Development Leadership and Innovation**
-- **Moved into full development role**, leading innovation initiatives to modernize core legacy applications
-- **Championed mobile-first and progressive enhancement strategies**, establishing responsive design standards adopted by other teams
-- **Led responsive design transformation** for mature applications, improving user experience across devices
+**Backend:** GO • MySQL • Parquet (DuckDB) • Node.js • RESTful APIs • Database Design • PHP
 
-#### **Client Engagement and Feedback Integration**
-- **Regularly engaged with business clients** to demonstrate new features, gather feedback, and incorporate insights into development cycles
-- **Ensured product evolution aligned with customer needs** through structured feedback collection and implementation processes
+**DevOps:** Docker • CI/CD Pipelines • AWS (ECS, Lambda, Cognito, AVP, DynamoDB, Terraform, and more) • Git • Bitbucket
+
+**Tools:** Nx Monorepos • Figma • Contentful • Directus • Storybook • Stoyblok • Agile Development
+
+**Previous:** C#, VB6, .NET, WebForms, ASP.NET, SQL Server
 
 ---
 
 ## Projects
 
-### **[bristolrowing.co.uk](https://bristolrowing.co.uk)**
+### **[BristolRowing.co.uk](https://bristolrowing.co.uk)**
 **Designer, Developer, and Maintainer**
 
 - **Built comprehensive rowing club website** using Angular frontend with PHP and MySQL backend
@@ -98,7 +80,3 @@ Figma • Storyblok • Contentful • Directus • UX Design Collaboration • 
 - **Led performance sports team**, increasing both participation levels and overall team performance
 - **Developed culture focused on individual growth** and process-driven improvement, helping athletes achieve personal excellence
 - **Managed team development** balancing competitive goals with athlete wellbeing and long-term progression
-
----
-
-**Previous Technologies:** C#, VB6, VB.NET, WebForms, ASP.NET, ASP, IIS, SQL Server
