@@ -5,7 +5,7 @@
   const linkClass = `flex items-center ${textSize}  gap-1`;
 </script>
 
-<ul aria-label="Contact Information" class="not-prose inline-grid grid-cols-2 items-center sm:flex sm:justify-between sm:gap-1">
+<ul aria-label="Contact Information" class="not-prose inline-grid grid-cols-2 items-center sm:grid-cols-4 sm:gap-2">
 	<li class="truncate {textSize}" aria-label="Location">Bristol, United Kingdom</li>
 	<li class={linkClass} aria-label="Email">
 		<CopyLink href="mailto:ct5845@gmail.com">ct5845@gmail.com</CopyLink>
