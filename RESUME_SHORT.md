@@ -1,56 +1,56 @@
 ## Experience
 
-### Senior Web Developer ➠ Lead Web Developer
-
+### **Senior Web Developer ➠ Lead Web Developer**
 ***Alterian (2015 to Present)***
 
-- **Leadership:**
-  Lead and mentor a team of web developers, fostering a culture of collaboration, growth, and continuous learning in a transparent environment.
-- **Product and UX:**
-  Shaping requirements, designing solutions, and prioritizing new features to align with business objectives.
-- **High-Performance Web Architecture:**
-  Develop and optimize two robust web stacks; one using **Angular**, **Material**, and **Tailwind CSS**, and another with **Go**, **HTMX**, and **AlpineJS** to deliver efficient, high-performing websites with great accessibility tailored to diverse project needs.
-- **DevOps and CI/CD:**
-  Improved deployment with **Docker**, **Bitbucket Pipelines**, and AWS.
+- **Leadership & Team Development:**
+  Lead and mentor web development team, guiding Junior Developers into Senior roles while fostering collaborative culture focused on continuous learning and professional growth.
+- **Product Strategy & UX Enhancement:**
+  Play key role in product UX improvements, contributing to design discussions and feature prioritization aligned with business objectives. Bridge communication between technical and non-technical teams.
+- **Technical Architecture:**
+  Led unification of technology stack implementing **Angular**, **Material Design**, **Nx monorepos**, and **Tailwind CSS** to improve development efficiency and reduce technical debt.
+- **DevOps & Process Implementation:**
+  Enhanced CI/CD pipeline utilizing **Docker**, **Bitbucket Pipelines**, and **AWS**. Established secure development practices (SSDLC) and comprehensive testing strategy.
 
-### System Tester ➠ DevOps ➠ Senior Web Developer
-
+### **System Tester ➠ DevOps ➠ Senior Web Developer**
 ***Computershare (2008 to 2015)***
 
-- **Responsive Design**
-  Innovated mobile-first development on mature products, sharing best practices among teams.
-- **Client Interaction**
-  Delivered demos and incorporated feedback directly from clients for continuous product improvement.
-- **DevOps:**
-  Gained experience in 3rd line support, working on critical production issues, deployment of systems and feature requests.
-- **System Tester:**
-  Introduced automation to reduce testing times and improve quality. Worked closely with Product Owners on wireframes and requirements.
+- **Mobile-First Innovation:**
+  Championed mobile-first and progressive enhancement strategies for legacy applications, establishing responsive design standards adopted across teams.
+- **Client Engagement:**
+  Regularly engaged with business clients to demonstrate features, gather feedback, and ensure product evolution aligned with customer needs.
+- **DevOps & Automation:**
+  Transitioned through DevOps role gaining 3rd line support experience while contributing to feature development across multiple products.
+- **Testing Automation:**
+  Introduced automation processes to reduce testing time and improve efficiency. Expanded into wireframing and requirements gathering with product owners.
 
-## Skills
+## Core Technical Skills
 
-- **Core:** Angular, Typescript, JavaScript, MySQL, PHP, Go.
-- **Tools and Libraries:** Tailwind CSS, Angular Material, Docker, AWS (Cognito, Verified Permissions), HTMX, AlpineJS.
-- **Other:** Nx, Git, Bitbucket, Contentful, Directus, Figma.
-- **Historic:** C#, VB6, .NET, SQL Server.
+**Frontend:** Angular • TypeScript • JavaScript • Tailwind CSS • Angular Material • HTMX • AlpineJS • Responsive Design
+
+**Backend:** GO • PHP • MySQL • Parquet • Node.js • RESTful APIs • Database Design
+
+**DevOps:** Docker • CI/CD Pipelines • Bitbucket Pipelines • AWS (ECS, ECR, Cognito, AVP, DynamoDB, Terraform, and more) • Git
+
+**Tools:** Nx Monorepos • Figma • Contentful • Directus • Agile Development
+
+**Previous:** C#, VB6, .NET, WebForms, ASP.NET, SQL Server
 
 ## Projects
 
-**[BristolRowing.co.uk](https://bristolrowing.co.uk)** -
- Designed and developed the website for the rowing club, integrating membership, resources, and event management.
+**[BristolRowing.co.uk](https://bristolrowing.co.uk)** - Designer, Developer, and Maintainer
+Built comprehensive rowing club website using **Angular** frontend with **PHP/MySQL** backend. Delivered CMS solution and membership portal including resource management, booking system, and event coordination.
 
 ## Education
 
-**Bristol University** - 2:1 Computer science (BSc)\
+**Bristol University** - Computer Science (BSc) 2:1
+
 **Chislehurst and Sidcup Grammar School** - GCSEs and A Levels
 
-## Additional Leadership Roles
+## Additional Leadership Experience
 
 **Trustee, City of Bristol Rowing Club _(2013 to 2019)_**
-
-Supported a large membership base and contributed to setting the charity's strategic direction.\
-Helped guide the charity’s operations, ensuring the delivery of key services while managing a substantial annual turnover.
+Supported strategic direction for charity serving large membership base with substantial annual turnover. Contributed to operational guidance ensuring effective delivery of key services.
 
 **Head Coach, City of Bristol Rowing Club Women's Squad _(2016 to 2021)_**
-
-Led a performance sports team, successfully increasing both participation and overall team performance.\
-Focused on a culture of care, building performance through the process, and helping individuals find their own better than before.
+Led performance sports team, increasing both participation and team performance. Developed culture focused on individual growth and process-driven improvement.

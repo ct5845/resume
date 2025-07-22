@@ -1,71 +1,104 @@
+## Professional Summary
+
+**Experienced technical leader with 17+ years in web development and team leadership.** Currently leading development teams and driving technical strategy at Alterian, with expanded responsibilities across product development, DevOps implementation, and business collaboration. Proven track record in modernizing technology stacks, mentoring developers, and translating business requirements into scalable technical solutions. Strong background in full-stack development with growing expertise in cloud infrastructure and modern development practices.
+
+## Core Technical Skills
+
+### **Web Development**
+Go • Angular • TypeScript • JavaScript • HTML5 • CSS3 • SASS • LESS • Tailwind CSS • Angular Material • Responsive Design • Mobile-First Development
+
+### **Backend & Database**
+PHP • MySQL • Node.js • RESTful APIs • Database Design • Server Architecture
+
+### **Development Tools & Practices**
+Git • Bitbucket • Nx Monorepos • Agile Development • Code Reviews • Testing Strategies • Secure Development Practices
+
+### **DevOps & Infrastructure**
+Docker • CI/CD Pipelines • Bitbucket Pipelines • AWS (ECS, Terraform, DynamoDB, Athena) • Deployment Automation • Infrastructure Monitoring
+
+### **Design & Content Management**
+Figma • Storyblok • Contentful • Directus • UX Design Collaboration • Wireframing • Requirements Gathering
+
+---
+
 ## Experience
 
-### Alterian _(2015 to Present)_
-
+### **Alterian** _(2015 to Present)_
 **Senior Web Developer ➠ Lead Web Developer**
 
-- #### Leadership and Mentorship
-  Lead a team of web developers, helping to guide Junior Developers into Senior roles, fostering a culture of collaboration, growth, and continuous learning in a transparent environment.
-- #### UX and Product Discovery
-  Played a key role in enhancing the UX of the product, actively contributing to design, shaping requirements, and prioritizing new features to align with business objectives.
-- #### Development and Delivery
-  The unification of various frameworks and technologies such as **Angular**, **Material**, **Nx**, and **Tailwind CSS**, improving product performance and development efficiency.
-- #### DevOps
-  Improved the CI/CD pipeline by utilising **Docker**, **Bitbucket Pipelines**, and AWS, facilitating rapid deployment of applications.
-- #### Process Implementation
-  Established the Software Development Life Cycle (SDLC) process, including our testing strategy and secure development practices (SSDLC), to ensure code quality and security at all stages of the development lifecycle.
+#### **Leadership and Team Development**
+- **Lead a team of web developers**, providing mentorship and guidance to help Junior Developers progress into Senior roles
+- **Foster collaborative culture** focused on continuous learning, knowledge sharing, and professional growth in transparent team environment
+- **Collaborate closely with stakeholders** across different business functions to align technical solutions with company objectives
 
-### Computershare _(2008 to 2015)_
+#### **Product Development and UX Enhancement**
+- **Play key role in product UX improvements**, actively contributing to design discussions and feature prioritization aligned with business goals
+- **Bridge communication** between technical and non-technical teams, helping shape requirements and product direction
+- **Contribute to product discovery process**, evaluating technical feasibility and implementation approaches for new features
 
+#### **Technical Architecture and Development**
+- **Led unification of technology stack** implementing Angular, Material Design, Nx monorepos, and Tailwind CSS to improve development efficiency and code maintainability
+- **Modernized legacy codebase** reducing technical debt and improving application performance through strategic refactoring
+- **Established coding standards and best practices** across development team, improving code quality and consistency
+
+#### **DevOps and Process Implementation**
+- **Enhanced CI/CD pipeline** utilizing Docker and Bitbucket Pipelines, streamlining deployment processes and reducing manual intervention
+- **Implemented testing strategy** as part of Software Development Life Cycle (SDLC), improving code quality and reducing production issues
+- **Established secure development practices (SSDLC)** ensuring security considerations are integrated throughout development lifecycle
+- **Growing AWS expertise** through infrastructure improvements and cloud service integration
+
+### **Computershare** _(2008 to 2015)_
 **System Tester ➠ DevOps ➠ Senior Web Developer**
 
-- #### System Tester
-  I Began my career as a System Tester, quickly introducing automation processes to help cut down testing times, and then became involved in wireframing and gathering requirements alongside product owners, helping to bridge communication between product and development teams. This shift propelled me towards a development-focused path.
-- #### DevOps
-  Transitioned into a DevOps role, gaining critical experience in 3rd line support while contributing small feature development for various products, balancing operational efficiency with new feature releases.
-- #### Developer and Responsive Design Lead
-  Moved into a full development role, where I led innovation to revitalize our core mature application. I championed **mobile-first** and progressive enhancement strategies, and subsequently worked to standardize these practices across other teams.
-- #### Client Interaction & Feedback Integration
-  Frequently met with business clients to demo changes, gather feedback, and incorporate those insights into future development cycles, ensuring the product's evolution aligned with customer needs.
+#### **Career Progression and Automation**
+- **Started as System Tester**, quickly introducing automation processes to reduce testing time and improve efficiency
+- **Expanded into wireframing and requirements gathering**, working alongside product owners to bridge communication between product and development teams
+- **Transitioned to DevOps role**, gaining experience in 3rd line support while contributing to feature development across multiple products
 
-## Skills
+#### **Development Leadership and Innovation**
+- **Moved into full development role**, leading innovation initiatives to modernize core legacy applications
+- **Championed mobile-first and progressive enhancement strategies**, establishing responsive design standards adopted by other teams
+- **Led responsive design transformation** for mature applications, improving user experience across devices
 
-### Core Competencies
+#### **Client Engagement and Feedback Integration**
+- **Regularly engaged with business clients** to demonstrate new features, gather feedback, and incorporate insights into development cycles
+- **Ensured product evolution aligned with customer needs** through structured feedback collection and implementation processes
 
-Angular, Typescript (/Javascript), MySQL, PHP
-
-### Related Tools & Frameworks
-
-___Design:___ Tailwindcss, Angular Material, DaisyUI, Figma.\
-___Content Management:___ Contentful, Directus.\
-___DevOps:___ Docker, Bitbucket Pipelines, Vercel, AWS, Jenkins.\
-___General:___ Nx, Git, Bitbucket, CSS (/SASS,LESS).\
-___Historic:___ C#, VB6, VB.NET, WebForms, ASP.NET, ASP, IIS, SQL Server.
+---
 
 ## Projects
 
-### [bristolrowing.co.uk](https://bristolrowing.co.uk)
+### **[bristolrowing.co.uk](https://bristolrowing.co.uk)**
+**Designer, Developer, and Maintainer**
 
-Designer, developer, and maintainer of the Rowing Club website, built with **Angular** on the front end and **PHP** and **MySQL** on the back end. Delivering a CMS solution for our Communication team to update the public-facing sections, with a membership section that includes; Resources/Equipment, Bookings, Club and Member Treasury/Finances, Events, etc.
+- **Built comprehensive rowing club website** using Angular frontend with PHP and MySQL backend
+- **Delivered CMS solution** enabling Communication team to manage public-facing content independently
+- **Developed membership portal** including resource management, booking system, treasury/finance tools, and event coordination
+- **Manage ongoing maintenance and feature development** ensuring reliable service for club operations
+
+---
 
 ## Education
 
-### Bristol University _(2005 to 2008)_
+### **Bristol University** _(2005 to 2008)_
+**Computer Science (BSc) - 2:1**
 
-2:1 Computer science (BSc)
+### **Chislehurst and Sidcup Grammar School** _(1998 to 2005)_
+**GCSEs and A Levels**
 
-### Chislehurst and Sidcup Grammar School _(1998 to 2005)_
+---
 
-GCSEs and A Levels
+## Additional Leadership Experience
 
-## Additional Leadership Roles
+### **Trustee, City of Bristol Rowing Club** _(2013 to 2019)_
+- **Supported strategic direction** for charity serving large membership base with substantial annual turnover
+- **Contributed to operational guidance** ensuring effective delivery of key services and sustainable growth
 
-### Trustee, City of Bristol Rowing Club _(2013 to 2019)_
+### **Head Coach, City of Bristol Rowing Club Women's Squad** _(2016 to 2021)_
+- **Led performance sports team**, increasing both participation levels and overall team performance
+- **Developed culture focused on individual growth** and process-driven improvement, helping athletes achieve personal excellence
+- **Managed team development** balancing competitive goals with athlete wellbeing and long-term progression
 
-- Supported a large membership base and contributed to setting the charity's strategic direction.
-- Helped guide the charity’s operations, ensuring the delivery of key services while managing a substantial annual turnover.
+---
 
-### Head Coach, of the City of Bristol Rowing Club Women's Squad  _(2016 to 2021)_
-
-- Led a performance sports team, successfully increasing both participation and overall team performance.
-- Focused on a culture of care, building performance through process, and helping individuals find their own better then before.
+**Previous Technologies:** C#, VB6, VB.NET, WebForms, ASP.NET, ASP, IIS, SQL Server

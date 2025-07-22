@@ -16,5 +16,6 @@
 			<span>PDF</span></a
 		>
 	</div>
+	<p class="text-base font-semibold mt-0">Lead Web Developer | Technical Leader | Full-Stack Engineer</p>
 	<Contact />
 </header>

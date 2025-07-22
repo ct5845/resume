@@ -1,42 +1,42 @@
 <h2>Experience</h2>
-<h3>Senior Web Developer ➠ Lead Web Developer</h3>
+<h3><strong>Senior Web Developer ➠ Lead Web Developer</strong></h3>
 <p><em><strong>Alterian (2015 to Present)</strong></em></p>
 <ul>
-<li><strong>Leadership:</strong>
-Lead and mentor a team of web developers, fostering a culture of collaboration, growth, and continuous learning in a transparent environment.</li>
-<li><strong>Product and UX:</strong>
-Shaping requirements, designing solutions, and prioritizing new features to align with business objectives.</li>
-<li><strong>High-Performance Web Architecture:</strong>
-Develop and optimize two robust web stacks; one using <strong>Angular</strong>, <strong>Material</strong>, and <strong>Tailwind CSS</strong>, and another with <strong>Go</strong>, <strong>HTMX</strong>, and <strong>AlpineJS</strong> to deliver efficient, high-performing websites with great accessibility tailored to diverse project needs.</li>
-<li><strong>DevOps and CI/CD:</strong>
-Improved deployment with <strong>Docker</strong>, <strong>Bitbucket Pipelines</strong>, and AWS.</li>
+<li><strong>Leadership &amp; Team Development:</strong>
+Lead and mentor web development team, guiding Junior Developers into Senior roles while fostering collaborative culture focused on continuous learning and professional growth.</li>
+<li><strong>Product Strategy &amp; UX Enhancement:</strong>
+Play key role in product UX improvements, contributing to design discussions and feature prioritization aligned with business objectives. Bridge communication between technical and non-technical teams.</li>
+<li><strong>Technical Architecture:</strong>
+Led unification of technology stack implementing <strong>Angular</strong>, <strong>Material Design</strong>, <strong>Nx monorepos</strong>, and <strong>Tailwind CSS</strong> to improve development efficiency and reduce technical debt.</li>
+<li><strong>DevOps &amp; Process Implementation:</strong>
+Enhanced CI/CD pipeline utilizing <strong>Docker</strong>, <strong>Bitbucket Pipelines</strong>, and <strong>AWS</strong>. Established secure development practices (SSDLC) and comprehensive testing strategy.</li>
 </ul>
-<h3>System Tester ➠ DevOps ➠ Senior Web Developer</h3>
+<h3><strong>System Tester ➠ DevOps ➠ Senior Web Developer</strong></h3>
 <p><em><strong>Computershare (2008 to 2015)</strong></em></p>
 <ul>
-<li><strong>Responsive Design</strong>
-Innovated mobile-first development on mature products, sharing best practices among teams.</li>
-<li><strong>Client Interaction</strong>
-Delivered demos and incorporated feedback directly from clients for continuous product improvement.</li>
-<li><strong>DevOps:</strong>
-Gained experience in 3rd line support, working on critical production issues, deployment of systems and feature requests.</li>
-<li><strong>System Tester:</strong>
-Introduced automation to reduce testing times and improve quality. Worked closely with Product Owners on wireframes and requirements.</li>
+<li><strong>Mobile-First Innovation:</strong>
+Championed mobile-first and progressive enhancement strategies for legacy applications, establishing responsive design standards adopted across teams.</li>
+<li><strong>Client Engagement:</strong>
+Regularly engaged with business clients to demonstrate features, gather feedback, and ensure product evolution aligned with customer needs.</li>
+<li><strong>DevOps &amp; Automation:</strong>
+Transitioned through DevOps role gaining 3rd line support experience while contributing to feature development across multiple products.</li>
+<li><strong>Testing Automation:</strong>
+Introduced automation processes to reduce testing time and improve efficiency. Expanded into wireframing and requirements gathering with product owners.</li>
 </ul>
-<h2>Skills</h2>
-<ul>
-<li><strong>Core:</strong> Angular, Typescript, JavaScript, MySQL, PHP, Go.</li>
-<li><strong>Tools and Libraries:</strong> Tailwind CSS, Angular Material, Docker, AWS (Cognito, Verified Permissions), HTMX, AlpineJS.</li>
-<li><strong>Other:</strong> Nx, Git, Bitbucket, Contentful, Directus, Figma.</li>
-<li><strong>Historic:</strong> C#, VB6, .NET, SQL Server.</li>
-</ul>
+<h2>Core Technical Skills</h2>
+<p><strong>Frontend:</strong> Angular • TypeScript • JavaScript • Tailwind CSS • Angular Material • HTMX • AlpineJS • Responsive Design</p>
+<p><strong>Backend:</strong> GO • PHP • MySQL • Parquet • Node.js • RESTful APIs • Database Design</p>
+<p><strong>DevOps:</strong> Docker • CI/CD Pipelines • Bitbucket Pipelines • AWS (ECS, ECR, Cognito, AVP, DynamoDB, Terraform, and more) • Git</p>
+<p><strong>Tools:</strong> Nx Monorepos • Figma • Contentful • Directus • Agile Development</p>
+<p><strong>Previous:</strong> C#, VB6, .NET, WebForms, ASP.NET, SQL Server</p>
 <h2>Projects</h2>
-<p><strong><a href="https://bristolrowing.co.uk">BristolRowing.co.uk</a></strong> -
- Designed and developed the website for the rowing club, integrating membership, resources, and event management.</p>
+<p><strong><a href="https://bristolrowing.co.uk">BristolRowing.co.uk</a></strong> - Designer, Developer, and Maintainer
+Built comprehensive rowing club website using <strong>Angular</strong> frontend with <strong>PHP/MySQL</strong> backend. Delivered CMS solution and membership portal including resource management, booking system, and event coordination.</p>
 <h2>Education</h2>
-<p><strong>Bristol University</strong> - 2:1 Computer science (BSc)<br><strong>Chislehurst and Sidcup Grammar School</strong> - GCSEs and A Levels</p>
-<h2>Additional Leadership Roles</h2>
-<p><strong>Trustee, City of Bristol Rowing Club <em>(2013 to 2019)</em></strong></p>
-<p>Supported a large membership base and contributed to setting the charity&#39;s strategic direction.<br>Helped guide the charity’s operations, ensuring the delivery of key services while managing a substantial annual turnover.</p>
-<p><strong>Head Coach, City of Bristol Rowing Club Women&#39;s Squad <em>(2016 to 2021)</em></strong></p>
-<p>Led a performance sports team, successfully increasing both participation and overall team performance.<br>Focused on a culture of care, building performance through the process, and helping individuals find their own better than before.</p>
+<p><strong>Bristol University</strong> - Computer Science (BSc) 2:1</p>
+<p><strong>Chislehurst and Sidcup Grammar School</strong> - GCSEs and A Levels</p>
+<h2>Additional Leadership Experience</h2>
+<p><strong>Trustee, City of Bristol Rowing Club <em>(2013 to 2019)</em></strong>
+Supported strategic direction for charity serving large membership base with substantial annual turnover. Contributed to operational guidance ensuring effective delivery of key services.</p>
+<p><strong>Head Coach, City of Bristol Rowing Club Women&#39;s Squad <em>(2016 to 2021)</em></strong>
+Led performance sports team, increasing both participation and team performance. Developed culture focused on individual growth and process-driven improvement.</p>
