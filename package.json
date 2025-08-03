@@ -4,19 +4,12 @@
   "homepage": "https://github.com/ct5845/resume",
   "private": false,
   "scripts": {
-    "svelte:build": "cd ./apps/svelte & npm run build",
-    "svelte:dev": "cd ./apps/svelte & npm run dev",
-    "svelte:preview": "cd ./apps/svelte & npm run preview",
-    "resume:build": "npx marked -i RESUME.md -o apps/svelte/src/routes/+page.svelte",
+    "build": "go run .",
     "dev": "air",
     "watch": "air"
   },
   "devDependencies": {
-    "@sveltejs/adapter-static": "^3.0.5",
-    "@tailwindcss/typography": "^0.5.15",
-    "@tailwindcss/vite": "^4.1.11",
-    "daisyui": "^4.12.10",
-    "marked": "^14.1.2"
+    "@tailwindcss/typography": "^0.5.15"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.11",

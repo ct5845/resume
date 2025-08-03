@@ -35,7 +35,7 @@ func main() {
 	}
 
 	// Clear and recreate build/go directory
-	buildDir := filepath.Join("build", "go")
+	buildDir := filepath.Join("build")
 	err = os.RemoveAll(buildDir)
 	if err != nil {
 		panic(err)

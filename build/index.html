@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="public/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description" content="Christopher Turner's Resume" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="public/styles.css">
+    <title>Christopher Turner's Resume</title>
+</head>
+<body class="mx-auto prose max-w-[75ch] w-full print:px-0 print:!text-black bg-background">
+    <header
+  class="py-mq bg-background sticky top-0 bg-base-100 border-b-2 print:relative print:border-black mb-mq print:mb-2"
+>
+  <div class="flex items-start justify-between">
+    <h1 class="text-5xl font-light">Christopher Turner</h1>
+    <a
+      href="public/resume.pdf"
+      aria-label="Download Christopher Turner's Resume as a PDF"
+      class="flex text-sm items-center gap-4 px-5 py-2 rounded-xl no-underline bg-primary text-on-primary print:hidden"
+    >
+      <svg class="size-6 fill-current" width="24" height="24" aria-hidden="true" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m12 16-5-5 1.4-1.45 2.6 2.6v-8.15h2v8.15l2.6-2.6 1.4 1.45zm-6 4q-0.825 0-1.4125-0.5875-0.5875-0.5875-0.5875-1.4125v-3h2v3h12v-3h2v3q0 0.825-0.5875 1.4125-0.5875 0.5875-1.4125 0.5875z" style="stroke-width:.025"/>
+</svg>
+
+      <span>PDF</span>
+    </a>
+  </div>
+  <p class="text-base font-semibold mt-0">
+    Lead Web Developer | Technical Leader | Full-Stack Engineer
+  </p>
+
+  <ul
+    aria-label="Contact Information"
+    class="inline-grid grid-cols-2 items-center sm:grid-cols-4 sm:gap-2 *:truncate not-prose text-sm print:flex print:justify-between"
+  >
+    <li aria-label="Location">Bristol, United Kingdom</li>
+    <li class="flex items-center gap-1 overflow-hidden" aria-label="Email">
+      <a class="truncate" href="mailto:ct5845@gmail.com">ct5845@gmail.com</a>
+      <button
+        title="Copy email address"
+        aria-label="Copy email address"
+        class="button"
+        onclick="navigator.clipboard.writeText('ct5845@gmail.com')"
+        popovertarget="email-copied-notification"
+        style="anchor-name: --copyemail"
+      >
+        <svg class="size-6 fill-current" aria-hidden="true" width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m11.2 16h-3.2q-1.66 0-2.83-1.17t-1.17-2.83 1.17-2.83 2.83-1.17h3.2v1.6h-3.2q-1 0-1.7 0.7t-0.7 1.7 0.7 1.7 1.7 0.7h3.2zm-2.4-3.2v-1.6h6.4v1.6zm4 3.2v-1.6h3.2q1 0 1.7-0.7t0.7-1.7-0.7-1.7-1.7-0.7h-3.2v-1.6h3.2q1.66 0 2.83 1.17t1.17 2.83-1.17 2.83-2.83 1.17z" style="stroke-width:.02"/>
+</svg>
+
+      </button>
+      <div
+        class="toast"
+        popover
+        id="email-copied-notification"
+        style="position-anchor: --copyemail; position-area: bottom center"
+      >
+        <div class="toast-message">✓  Email Copied</div>
+      </div>
+    </li>
+    <li class="flex items-center gap-1 overflow-hidden" aria-label="GitHub">
+      <a class="truncate" href="https://github.com/ct5845">github.com/ct5845</a>
+      <button
+        title="Copy github link"
+        aria-label="Copy github link"
+        class="button"
+        onclick="navigator.clipboard.writeText('https://github.com/ct5845')"
+        popovertarget="github-copied-notification"
+        style="anchor-name: --copygithub"
+      >
+        <svg class="size-6 fill-current" aria-hidden="true" width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m11.2 16h-3.2q-1.66 0-2.83-1.17t-1.17-2.83 1.17-2.83 2.83-1.17h3.2v1.6h-3.2q-1 0-1.7 0.7t-0.7 1.7 0.7 1.7 1.7 0.7h3.2zm-2.4-3.2v-1.6h6.4v1.6zm4 3.2v-1.6h3.2q1 0 1.7-0.7t0.7-1.7-0.7-1.7-1.7-0.7h-3.2v-1.6h3.2q1.66 0 2.83 1.17t1.17 2.83-1.17 2.83-2.83 1.17z" style="stroke-width:.02"/>
+</svg>
+
+      </button>
+      <div
+        class="toast"
+        popover
+        id="github-copied-notification"
+        style="position-anchor: --copygithub; position-area: bottom center"
+      >
+        <div class="toast-message">✓  Github Copied</div>
+      </div>
+    </li>
+    <li class="flex items-center gap-1 overflow-hidden" aria-label="LinkedIn">
+      <a class="truncate" href="https://linkedin.com/in/ct5845"
+        >linkedin.com/in/ct5845</a
+      >
+      <button
+        title="Copy linkedin link"
+        aria-label="Copy linkedin link"
+        class="button"
+        onclick="navigator.clipboard.writeText('https://linkedin.com/in/ct5845')"
+        popovertarget="linkedin-copied-notification"
+        style="anchor-name: --copylinkedin"
+      >
+        <svg class="size-6 fill-current" aria-hidden="true" width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m11.2 16h-3.2q-1.66 0-2.83-1.17t-1.17-2.83 1.17-2.83 2.83-1.17h3.2v1.6h-3.2q-1 0-1.7 0.7t-0.7 1.7 0.7 1.7 1.7 0.7h3.2zm-2.4-3.2v-1.6h6.4v1.6zm4 3.2v-1.6h3.2q1 0 1.7-0.7t0.7-1.7-0.7-1.7-1.7-0.7h-3.2v-1.6h3.2q1.66 0 2.83 1.17t1.17 2.83-1.17 2.83-2.83 1.17z" style="stroke-width:.02"/>
+</svg>
+
+      </button>
+      <div
+        class="toast"
+        popover
+        id="linkedin-copied-notification"
+        style="position-anchor: --copylinkedin; position-area: bottom center"
+      >
+        <div class="toast-message">✓  LinkedIn Copied</div>
+      </div>
+    </li>
+  </ul>
+</header>
+
+    <main class="text-pretty mt-mq">
+        <h2>Professional Summary</h2>
+
+<p><strong>Experienced technical architect and team leader with 17+ years in web development and engineering leadership.</strong> Specialises in architectural direction for web platforms, mentoring developers, and driving technical strategy. Currently at Alterian, leading the web team, coordinating testing efforts, and establishing development standards.</p>
+
+<p><strong>Proven expertise in modernising technology stacks and translating business requirements into scalable solutions.</strong> Strong background in full-stack development, data visualisation, and cloud infrastructure. Experienced in transforming big data into actionable insights and fostering collaboration between technical teams and business stakeholders.</p>
+
+<p><strong>Focused on developing talent and establishing best practices</strong> through architectural guidance, hands-on mentoring, and implementing DevOps processes that enhance team productivity and product quality.</p>
+
+<hr>
+
+<h2>Experience</h2>
+
+<h3>Senior Web Developer ➠ Lead Web Developer</h3>
+
+<p><strong><em>Alterian (2015 to Present)</em></strong></p>
+
+<ul>
+<li><strong>Leadership &amp; Team Development:</strong>
+Provide technical leadership and mentoring to development team members, guiding Junior Developers into Senior roles while fostering a collaborative culture focused on continuous learning, cross-functional collaboration and code reviews.</li>
+<li><strong>Product Strategy &amp; UX Enhancement:</strong>
+Play a key role in product UX improvements, lead design discussions and feature prioritisation aligned with business objectives. Bridge communication between technical and non-technical teams, managing stakeholder expectations and translating business requirements into technical solutions.</li>
+<li><strong>Technical Architecture:</strong>
+Led two major technology transformations: First, unified web stack migration to <strong>Angular</strong>, <strong>Material Design</strong>, <strong>Nx monorepos</strong>, <strong>Tailwind CSS</strong>, and <strong>Storybook</strong> with atomic design principles, improving development efficiency and code reusability. Currently leading strategic shift to <strong>GO-based web solutions</strong>, delivering improved developer productivity, enhanced performance, and reduced CI/CD times while expanding UI team capabilities to full-stack development.</li>
+<li><strong>DevOps &amp; Infrastructure Modernisation:</strong>
+Led migration from manual 6-weekly deployments to automated CI/CD using <strong>Docker</strong>, <strong>ECS Fargate</strong>, and <strong>Bitbucket Pipelines</strong>, gaining complete deployment control and enabling continuous delivery. Established secure development practices (SSDLC) and a comprehensive testing strategy, reducing deployment risks and improving system reliability.</li>
+<li><strong>Data Analytics &amp; AI/ML Integration:</strong>
+Develop data visualisations and insights from large-scale web traffic datasets using data preprocessing and analytics techniques. Built cloud-native architecture across the AWS ecosystem (ECS, Lambda, S3, EventBridge, Terraform) and implemented AWS Bedrock for LLM-powered analytics and conversational data insights.</li>
+</ul>
+
+<h3>System Tester ➠ DevOps ➠ Senior Web Developer</h3>
+
+<p><strong><em>Computershare (2008 to 2015)</em></strong></p>
+
+<ul>
+<li><strong>Mobile-First Innovation:</strong>
+Championed mobile-first and progressive enhancement strategies for legacy applications, establishing responsive design standards adopted across teams.</li>
+<li><strong>Client Engagement &amp; Stakeholder Management:</strong>
+Regularly engaged with business clients to demonstrate features, gather feedback, and ensure product evolution aligned with customer needs through structured stakeholder management and requirements analysis.</li>
+<li><strong>DevOps &amp; Automation:</strong>
+Transitioned through DevOps role, gaining 3rd line support experience while contributing to feature development across multiple products, coordinating development resources and managing technical risk assessment.</li>
+<li><strong>Testing Automation:</strong>
+Introduced automation processes to reduce testing time and improve efficiency. Expanded into wireframing and requirements gathering with product owners, facilitating resource planning and process optimisation.</li>
+</ul>
+
+<hr>
+
+<h2>Core Technical Skills</h2>
+
+<p><strong>Frontend:</strong> Angular • TypeScript • JavaScript • Tailwind CSS • Angular Material • HTMX • AlpineJS • Responsive Design</p>
+
+<p><strong>Backend &amp; Cloud:</strong> GO • Node.js • PHP • AWS (ECS, Lambda, Cognito, S3, EventBridge, DynamoDB, Bedrock) • Terraform</p>
+
+<p><strong>Data &amp; Analytics:</strong> Data Visualisation • Big Data Processing • Parquet (DuckDB) • MySQL • Database Design • RESTful APIs</p>
+
+<p><strong>DevOps &amp; Tools:</strong> Docker • CI/CD Pipelines • Git • Bitbucket • Nx Monorepos • Figma • Contentful • Storybook</p>
+
+<p><strong>Previous:</strong> C# • .NET • ASP.NET • SQL Server • VB6</p>
+
+<hr>
+
+<h2>Projects</h2>
+
+<h3>Bristol Rowing</h3>
+
+<p><a href="https://bristolrowing.co.uk" target="_blank">bristolrowing.co.uk</a> <strong>Designer, Developer, and Maintainer</strong></p>
+
+<ul>
+<li><strong>Built a comprehensive rowing club website</strong> using Angular frontend with PHP and MySQL backend</li>
+<li><strong>Delivered CMS solution</strong> enabling the Communication team to manage public-facing content independently</li>
+<li><strong>Developed a membership portal</strong> including resource management, booking system, treasury/finance tools, and event coordination</li>
+<li><strong>Manage ongoing maintenance and feature development</strong>, ensuring reliable service for club operations</li>
+</ul>
+
+<hr>
+
+<h2>Education</h2>
+
+<h3>Bristol University <em>(2005 to 2008)</em></h3>
+
+<p><strong>Computer Science (BSc) - 2:1</strong></p>
+
+<h3>Chislehurst and Sidcup Grammar School <em>(1998 to 2005)</em></h3>
+
+<p><strong>GCSEs and A Levels</strong></p>
+
+<hr>
+
+<h2>Additional Leadership Experience</h2>
+
+<h3>Trustee, City of Bristol Rowing Club <em>(2013 to 2019)</em></h3>
+
+<ul>
+<li><strong>Supported strategic direction</strong> for charity serving a large membership base with substantial annual turnover</li>
+<li><strong>Contributed to operational guidance</strong> ensuring effective delivery of key services and sustainable growth</li>
+</ul>
+
+<h3>Head Coach, City of Bristol Rowing Club Women&rsquo;s Squad <em>(2016 to 2021)</em></h3>
+
+<ul>
+<li><strong>Led performance sports team</strong>, increasing both participation levels and overall team performance</li>
+<li><strong>Developed culture focused on individual growth</strong> and process-driven improvement, helping athletes achieve personal excellence</li>
+<li><strong>Managed team development</strong> balancing competitive goals with athlete wellbeing and long-term progression</li>
+</ul>
+
+    </main>
+</body>
+</html>
