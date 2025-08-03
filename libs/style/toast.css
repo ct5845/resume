@@ -1,0 +1,8 @@
+@utility toast {
+  @apply mt-1 rounded-md overflow-visible;
+  @apply relative before:content-[''] before:size-full before:absolute before:bg-interactive-highest before:top-2 before:left-2 before:rounded-md;
+}
+
+@utility toast-message {
+  @apply bg-background z-10 relative border-2 border-on-background text-on-background p-2 rounded-md size-full;
+}

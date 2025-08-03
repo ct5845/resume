@@ -1,0 +1,31 @@
+@plugin "@tailwindcss/typography";
+
+@utility prose {
+  --tw-prose-body: color-mix(in srgb, var(--color-on-background) 80%, transparent);
+  --tw-prose-headings: var(--color-on-background);
+  --tw-prose-lead: var(--color-on-background);
+  --tw-prose-links: var(--color-on-background);
+  --tw-prose-bold: var(--color-on-background);
+  --tw-prose-counters: var(--color-on-background);
+  --tw-prose-bullets: var(--color-on-background);
+  --tw-prose-hr: var(--color-on-background);
+  --tw-prose-quotes: var(--color-on-background);
+  --tw-prose-quote-borders: var(--color-on-background);
+  --tw-prose-captions: var(--color-on-background);
+  --tw-prose-code: var(--color-on-background);
+  --tw-prose-pre-code: var(--color-on-background);
+  --tw-prose-pre-bg: inherit;
+  --tw-prose-th-borders: var(--color-on-background);
+  --tw-prose-td-borders: var(--color-on-background);
+}
+
+@layer base {
+  h1, h2, h3, h4, h5, h6, strong {
+    @apply print:!text-black;
+  }
+
+  a {
+    @apply underline text-primary;
+    @apply print:text-black;
+  }
+}

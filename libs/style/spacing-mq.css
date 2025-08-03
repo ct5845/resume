@@ -1,0 +1,68 @@
+/* Responsive spacing utilities - converted from spacing-mq plugin */
+@utility p-mq {
+  @apply p-1 sm:p-2 md:p-3 lg:p-4 xl:p-5 2xl:p-6 print:p-1;
+}
+
+@utility px-mq {
+  @apply px-1 sm:px-2 md:px-3 lg:px-4 xl:px-5 2xl:px-6 print:px-1;
+}
+
+@utility py-mq {
+  @apply py-1 sm:py-2 md:py-3 lg:py-4 xl:py-5 2xl:py-6 print:py-1;
+}
+
+@utility pl-mq {
+  @apply pl-1 sm:pl-2 md:pl-3 lg:pl-4 xl:pl-5 2xl:pl-6 print:pl-1;
+}
+
+@utility pr-mq {
+  @apply pr-1 sm:pr-2 md:pr-3 lg:pr-4 xl:pr-5 2xl:pr-6 print:pr-1;
+}
+
+@utility pt-mq {
+  @apply pt-1 sm:pt-2 md:pt-3 lg:pt-4 xl:pt-5 2xl:pt-6 print:pt-1;
+}
+
+@utility pb-mq {
+  @apply pb-1 sm:pb-2 md:pb-3 lg:pb-4 xl:pb-5 2xl:pb-6 print:pb-1;
+}
+
+@utility m-mq {
+  @apply m-1 sm:m-2 md:m-3 lg:m-4 xl:m-5 2xl:m-6 print:m-1;
+}
+
+@utility mx-mq {
+  @apply mx-1 sm:mx-2 md:mx-3 lg:mx-4 xl:mx-5 2xl:mx-6 print:mx-1;
+}
+
+@utility my-mq {
+  @apply my-1 sm:my-2 md:my-3 lg:my-4 xl:my-5 2xl:my-6 print:my-1;
+}
+
+@utility ml-mq {
+  @apply ml-1 sm:ml-2 md:ml-3 lg:ml-4 xl:ml-5 2xl:ml-6 print:ml-1;
+}
+
+@utility mr-mq {
+  @apply mr-1 sm:mr-2 md:mr-3 lg:mr-4 xl:mr-5 2xl:mr-6 print:mr-1;
+}
+
+@utility mt-mq {
+  @apply mt-1 sm:mt-2 md:mt-3 lg:mt-4 xl:mt-5 2xl:mt-6 print:mt-1;
+}
+
+@utility mb-mq {
+  @apply mb-1 sm:mb-2 md:mb-3 lg:mb-4 xl:mb-5 2xl:mb-6 print:mb-1;
+}
+
+@utility gap-mq {
+  @apply gap-1 sm:gap-2 md:gap-3 lg:gap-4 xl:gap-5 2xl:gap-6 print:gap-1;
+}
+
+@utility gap-x-mq {
+  @apply gap-x-1 sm:gap-x-2 md:gap-x-3 lg:gap-x-4 xl:gap-x-5 2xl:gap-x-6 print:gap-x-1;
+}
+
+@utility gap-y-mq {
+  @apply gap-y-1 sm:gap-y-2 md:gap-y-3 lg:gap-y-4 xl:gap-y-5 2xl:gap-y-6 print:gap-y-1;
+}

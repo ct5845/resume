@@ -2,3 +2,4 @@
 
 # node npm
 /node_modules
+/.claude

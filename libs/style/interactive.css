@@ -1,0 +1,8 @@
+@utility interactive {
+  @apply relative overflow-hidden;
+  @apply before:content-[''] before:absolute before:top-0 before:left-0 before:size-full;
+  @apply active:before:bg-interactive-high;
+  @apply hover:before:bg-interactive-low;
+  @apply focus:before:bg-interactive;
+  @apply disabled:pointer-events-none;
+}

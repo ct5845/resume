@@ -1,0 +1,90 @@
+<header
+  class="py-mq bg-background sticky top-0 bg-base-100 border-b-2 print:relative print:border-black mb-mq print:mb-2"
+>
+  <div class="flex items-start justify-between">
+    <h1 class="text-5xl font-light">Christopher Turner</h1>
+    <a
+      href="public/resume.pdf"
+      aria-label="Download Christopher Turner's Resume as a PDF"
+      class="flex text-sm items-center gap-4 px-5 py-2 rounded-xl no-underline bg-primary text-on-primary print:hidden"
+    >
+      {{ .DownloadSVG }}
+      <span>PDF</span>
+    </a>
+  </div>
+  <p class="text-base font-semibold mt-0">
+    Lead Web Developer | Technical Leader | Full-Stack Engineer
+  </p>
+
+  <ul
+    aria-label="Contact Information"
+    class="inline-grid grid-cols-2 items-center sm:grid-cols-4 sm:gap-2 *:truncate not-prose text-sm print:flex print:justify-between"
+  >
+    <li aria-label="Location">Bristol, United Kingdom</li>
+    <li class="flex items-center gap-1 overflow-hidden" aria-label="Email">
+      <a class="truncate" href="mailto:ct5845@gmail.com">ct5845@gmail.com</a>
+      <button
+        title="Copy email address"
+        aria-label="Copy email address"
+        class="button"
+        onclick="navigator.clipboard.writeText('ct5845@gmail.com')"
+        popovertarget="email-copied-notification"
+        style="anchor-name: --copyemail"
+      >
+        {{ .LinkSVG }}
+      </button>
+      <div
+        class="toast"
+        popover
+        id="email-copied-notification"
+        style="position-anchor: --copyemail; position-area: bottom center"
+      >
+        <div class="toast-message">✓  Email Copied</div>
+      </div>
+    </li>
+    <li class="flex items-center gap-1 overflow-hidden" aria-label="GitHub">
+      <a class="truncate" href="https://github.com/ct5845">github.com/ct5845</a>
+      <button
+        title="Copy github link"
+        aria-label="Copy github link"
+        class="button"
+        onclick="navigator.clipboard.writeText('https://github.com/ct5845')"
+        popovertarget="github-copied-notification"
+        style="anchor-name: --copygithub"
+      >
+        {{ .LinkSVG }}
+      </button>
+      <div
+        class="toast"
+        popover
+        id="github-copied-notification"
+        style="position-anchor: --copygithub; position-area: bottom center"
+      >
+        <div class="toast-message">✓  Github Copied</div>
+      </div>
+    </li>
+    <li class="flex items-center gap-1 overflow-hidden" aria-label="LinkedIn">
+      <a class="truncate" href="https://linkedin.com/in/ct5845"
+        >linkedin.com/in/ct5845</a
+      >
+      <button
+        title="Copy linkedin link"
+        aria-label="Copy linkedin link"
+        class="button"
+        onclick="navigator.clipboard.writeText('https://linkedin.com/in/ct5845')"
+        popovertarget="linkedin-copied-notification"
+        style="anchor-name: --copylinkedin"
+      >
+        {{ .LinkSVG }}
+      </button>
+      <div
+        class="toast"
+        popover
+        id="linkedin-copied-notification"
+        style="position-anchor: --copylinkedin; position-area: bottom center"
+      >
+        <div class="toast-message">✓  LinkedIn Copied</div>
+      </div>
+    </li>
+  </ul>
+</header>
