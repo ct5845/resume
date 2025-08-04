@@ -1,23 +1,44 @@
 # Christopher Turner's Resume
 
-This project contains my resume, it's also doubles up as a playground from some starter kits for different languages.
+This project contains my resume built with Go and Tailwind CSS.
 
 ## Versions
 
-1. [Markdown Version](./RESUME_SHORT.md)
-2. [SvelteKit Version](https://ct5845.github.io/resume/)
-3. [PDF Version](./libs/public/resume.pdf)
+1. [Markdown Version](./RESUME.md)
+2. [Go Web Server](http://localhost:8080) (run locally)
+3. [PDF Version](./libs/public/christopher-turners-resume.pdf)
+
+## Development
+
+### Prerequisites
+- Go 1.21+
+- Node.js (for Tailwind CSS)
+
+### Setup
+```bash
+# Install dependencies
+npm install
+
+# Run development server with hot reload
+npm run dev
+# or
+npm run watch
+```
+
+### Build
+```bash
+# Build and run the Go application
+npm run build
+# or
+go run .
+```
+
+The application serves the resume on `http://localhost:8080`
 
 ## Workflow
 
 1. Update my [Resume](./RESUME.md)
-
-1. Use `marked` to parse this into some basic html
-    ```bash
-    $ npm run resume:build
-    $ npm run svelte:build
-    ```
-1. Run locally to check `npm run svelte:dev`.
-1. Check it in.
-1. Visit the website `ctrl` + `p` - print as PDF and save.
+2. Run the development server: `npm run dev`
+3. View changes at `http://localhost:8080`
+4. Generate PDF by printing from the browser (`ctrl` + `p`)
 
