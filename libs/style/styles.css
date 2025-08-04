@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'sans-serif-override';
+  src: local('sans-serif');
+  ascent-override: 100.6%;
+  descent-override: 27.4%;
+  line-gap-override: 0%;
+}
+
 @import "tailwindcss";
 @import "./spacing-mq.css";
 @import "./prose.css";
@@ -6,11 +14,9 @@
 @import "./toast.css";
 
 @theme {
-  --font-sans: "Lora", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-    "Liberation Mono", "Courier New", monospace;
+  --font-sans: "Lora", "sans-serif-override";
+  --font-serif: ui-serif, serif;
+  --font-mono: monospace;
 
   /* Custom color scheme */
   --color-background: rgb(2 47 46);
@@ -66,26 +72,5 @@
 
   hr {
     @apply hidden;
-  }
-}
-
-@layer utilities {
-  .popover {
-    position: absolute;
-    top: anchor(bottom);
-    justify-self: anchor-center;
-    @apply mt-1 py-2 px-4 rounded-md shadow-lg border-2;
-  }
-
-  .popover-light {
-    @apply bg-white text-black border-gray-300;
-  }
-
-  .popover-dark {
-    @apply bg-gray-800 text-white border-gray-600;
-  }
-
-  .popover-primary {
-    @apply bg-blue-600 text-white border-blue-700;
   }
 }
