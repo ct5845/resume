@@ -1,8 +1,8 @@
 package resume
 
 import (
-	"fmt"
 	"html/template"
+	"log/slog"
 	"os"
 
 	"github.com/gomarkdown/markdown"
@@ -15,7 +15,7 @@ func HTML(filepath string) (template.HTML, error) {
 
 	content, err := os.ReadFile(filepath)
 	if err != nil {
-		fmt.Print(filepath)
+		slog.Error("error reading file", "filepath", filepath, "err", err)
 		return "", err
 	}
 

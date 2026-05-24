@@ -16,10 +16,8 @@ func HTML(stringTemplate string, model any) (template.HTML, error) {
 	}
 
 	var buf bytes.Buffer
-	executedTpl := parsedTpl.Execute(&buf, model)
-
-	if executedTpl != nil {
-		slog.Error("errorinng executing template")
+	if err = parsedTpl.Execute(&buf, model); err != nil {
+		slog.Error("error executing template")
 		return "", err
 	}
 
