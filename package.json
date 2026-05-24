@@ -9,10 +9,10 @@
     "watch": "air"
   },
   "devDependencies": {
-    "@tailwindcss/typography": "^0.5.15"
+    "@tailwindcss/typography": "0.5.19"
   },
   "dependencies": {
-    "@tailwindcss/cli": "^4.1.11",
-    "tailwindcss": "^4.1.11"
+    "@tailwindcss/cli": "4.3.0",
+    "tailwindcss": "4.3.0"
   }
 }
