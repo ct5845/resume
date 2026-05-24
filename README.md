@@ -1,11 +1,11 @@
 # Christopher Turner's Resume
 
-This project contains my resume built with Go and Tailwind CSS.
+This project generates my resume as static HTML using Go and Tailwind CSS.
 
 ## Versions
 
 1. [Markdown Version](./RESUME.md)
-2. [Go Web Server](http://localhost:8080) (run locally)
+2. [HTML Version](./build/index.html) (generated locally)
 3. [PDF Version](./libs/public/christopher-turners-resume.pdf)
 
 ## Development
@@ -19,26 +19,23 @@ This project contains my resume built with Go and Tailwind CSS.
 # Install dependencies
 npm install
 
-# Run development server with hot reload
+# Watch for changes and regenerate
 npm run dev
-# or
-npm run watch
 ```
 
 ### Build
 ```bash
-# Build and run the Go application
+# Generate static files to build/
 npm run build
 # or
 go run .
 ```
 
-The application serves the resume on `http://localhost:8080`
+Output is written to `build/index.html` and `build/public/styles.css`.
 
 ## Workflow
 
-1. Update my [Resume](./RESUME.md)
-2. Run the development server: `npm run dev`
-3. View changes at `http://localhost:8080`
+1. Update [RESUME.md](./RESUME.md)
+2. Run the watcher: `npm run dev`
+3. Open `build/index.html` in a browser
 4. Generate PDF by printing from the browser (`ctrl` + `p`)
-

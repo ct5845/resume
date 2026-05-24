@@ -4,7 +4,7 @@
   <div class="flex items-start justify-between">
     <h1 class="text-5xl font-light">Christopher Turner</h1>
     <a
-      href="public/resume.pdf"
+      href="public/christopher-turners-resume.pdf"
       aria-label="Download Christopher Turner's Resume as a PDF"
       class="flex text-sm items-center gap-4 px-5 py-2 rounded-xl no-underline bg-primary text-on-primary print:hidden"
     >
@@ -39,7 +39,7 @@
         id="email-copied-notification"
         style="position-anchor: --copyemail; position-area: bottom center"
       >
-        <div class="toast-message">✓  Email Copied</div>
+        <div class="toast-message">✓ Email Copied</div>
       </div>
     </li>
     <li class="flex items-center gap-1 overflow-hidden" aria-label="GitHub">
@@ -60,7 +60,7 @@
         id="github-copied-notification"
         style="position-anchor: --copygithub; position-area: bottom center"
       >
-        <div class="toast-message">✓  Github Copied</div>
+        <div class="toast-message">✓ Github Copied</div>
       </div>
     </li>
     <li class="flex items-center gap-1 overflow-hidden" aria-label="LinkedIn">
@@ -71,7 +71,9 @@
         title="Copy linkedin link"
         aria-label="Copy linkedin link"
         class="button"
-        onclick="navigator.clipboard.writeText('https://linkedin.com/in/ct5845')"
+        onclick="
+          navigator.clipboard.writeText('https://linkedin.com/in/ct5845')
+        "
         popovertarget="linkedin-copied-notification"
         style="anchor-name: --copylinkedin"
       >
@@ -83,7 +85,7 @@
         id="linkedin-copied-notification"
         style="position-anchor: --copylinkedin; position-area: bottom center"
       >
-        <div class="toast-message">✓  LinkedIn Copied</div>
+        <div class="toast-message">✓ LinkedIn Copied</div>
       </div>
     </li>
   </ul>

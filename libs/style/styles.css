@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'sans-serif-override';
-  src: local('sans-serif');
+  font-family: "sans-serif-override";
+  src: local("sans-serif");
   ascent-override: 100.6%;
   descent-override: 27.4%;
   line-gap-override: 0%;
@@ -26,7 +26,7 @@
   --color-on-background: rgb(213 205 207);
 
   --color-interactive-low: rgb(255 255 255 / 0.08);
-  --color-interactive: rgb(255 255 255 / 0.10);
+  --color-interactive: rgb(255 255 255 / 0.1);
   --color-interactive-high: rgb(255 255 255 / 0.12);
   --color-interactive-highest: rgb(0 0 0 / 0.5);
 }
@@ -41,11 +41,20 @@
     @apply text-sm md:text-base xl:text-lg;
   }
 
+  header {
+    break-after: avoid;
+    break-inside: avoid;
+  }
+
   h2,
   h3,
   h4,
   p {
-    page-break-after: avoid;
+    break-after: avoid;
+  }
+
+  p {
+    break-inside: avoid;
   }
 
   h1 {

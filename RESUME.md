@@ -1,10 +1,10 @@
 ## Professional Summary
 
-**Experienced technical architect and team leader with 17+ years in web development and engineering leadership.** Specialises in architectural direction for web platforms, mentoring developers, and driving technical strategy. Currently at Alterian, leading the web team, coordinating testing efforts, and establishing development standards.
+**Lead web developer with 17+ years of experience, recently focused on integrating LLM-powered agents and AI features into production web platforms.** At Alterian, I led the team that built and shipped Bedrock-backed analytics and conversational data tooling to real customers, on top of large-scale data infrastructure on AWS.
 
-**Proven expertise in modernising technology stacks and translating business requirements into scalable solutions.** Strong background in full-stack development, data visualisation, and cloud infrastructure. Experienced in transforming big data into actionable insights and fostering collaboration between technical teams and business stakeholders.
+**Architectural breadth across the modern web stack** — Go and TypeScript backends, Angular and component-driven UI, server-rendered HTMX/Alpine, and AWS-native infrastructure. Comfortable picking the right tool for the problem; pragmatic about stack choices and quick to come up to speed in unfamiliar ones.
 
-**Focused on developing talent and establishing best practices** through architectural guidance, hands-on mentoring, and implementing DevOps processes that enhance team productivity and product quality.
+**Strong record of mentoring developers, modernising legacy stacks, and turning manual delivery processes into automated CI/CD pipelines.** Equally happy in a Lead/Principal role setting direction or as a Senior IC building the hard parts.
 
 ---
 
@@ -13,61 +13,55 @@
 ### Senior Web Developer ➠ Lead Web Developer
 ***Alterian (2015 to Present)***
 
+- **AI & LLM Integration:**
+  Designed and shipped production LLM features using **AWS Bedrock**, including conversational data insights over large-scale customer-journey datasets and LLM-powered analytics surfaced inside the product UI. Built **tool-calling architecture** that lets the model query internal APIs and structured data stores (SQL, Parquet/DuckDB) as part of answering, rather than stuffing raw data into prompts.
+- **Technical Architecture & Modernisation:**
+  Led two major platform transformations. First, unified the web stack on **Angular**, **Material Design**, **Nx monorepos**, **Tailwind CSS**, and **Storybook** with atomic design principles. More recently, led a strategic move to **Go** with lightweight HTMX/Alpine front-ends for new products, delivering faster CI/CD, lower hosting cost, and a smaller surface area for the team to maintain — while keeping React/Angular skills available where they're the right fit.
 - **Leadership & Team Development:**
-  Provide technical leadership and mentoring to development team members, guiding Junior Developers into Senior roles while fostering a collaborative culture focused on continuous learning, cross-functional collaboration and code reviews.
-- **Product Strategy & UX Enhancement:**
-  Play a key role in product UX improvements, lead design discussions and feature prioritisation aligned with business objectives. Bridge communication between technical and non-technical teams, managing stakeholder expectations and translating business requirements into technical solutions.
-- **Technical Architecture:**
-  Led two major technology transformations: First, unified web stack migration to **Angular**, **Material Design**, **Nx monorepos**, **Tailwind CSS**, and **Storybook** with atomic design principles, improving development efficiency and code reusability. Currently leading strategic shift to **GO-based web solutions**, delivering improved developer productivity, enhanced performance, and reduced CI/CD times while expanding UI team capabilities to full-stack development.
-- **DevOps & Infrastructure Modernisation:**
-  Led migration from manual 6-weekly deployments to automated CI/CD using **Docker**, **ECS Fargate**, and **Bitbucket Pipelines**, gaining complete deployment control and enabling continuous delivery. Established secure development practices (SSDLC) and a comprehensive testing strategy, reducing deployment risks and improving system reliability.
-- **Data Analytics & AI/ML Integration:**
-  Develop data visualisations and insights from large-scale web traffic datasets using data preprocessing and analytics techniques. Built cloud-native architecture across the AWS ecosystem (ECS, Lambda, S3, EventBridge, Terraform) and implemented AWS Bedrock for LLM-powered analytics and conversational data insights.
+  Provide technical leadership and mentoring across the development team, guiding Junior Developers through to Senior roles and growing UI specialists into full-stack engineers. Run code reviews, design sessions, and architecture discussions; foster a culture of continuous learning and cross-functional collaboration.
+- **Product Strategy & Stakeholder Management:**
+  Lead UX improvement initiatives and feature prioritisation aligned with business objectives. Bridge communication between engineering, product, and commercial teams — translating business requirements into technical solutions and managing stakeholder expectations across delivery cycles.
+- **DevOps & Cloud Infrastructure:**
+  Led the migration from manual 6-weekly deployments to automated CI/CD using **Docker**, **ECS Fargate**, and **Bitbucket Pipelines**, giving the team complete deployment control and continuous delivery. Built cloud-native architecture across the AWS ecosystem (**ECS, Lambda, S3, EventBridge, DynamoDB, Cognito, Bedrock**) with **Terraform**, and established secure development practices (SSDLC) and a comprehensive testing strategy.
+- **Data Engineering & Analytics:**
+  Built data preprocessing and analytics pipelines over large web-traffic datasets, including **Parquet**-based storage queried with **DuckDB**, feeding both classical visualisations and LLM-driven insights.
 
 ### System Tester ➠ DevOps ➠ Senior Web Developer
 ***Computershare (2008 to 2015)***
 
-- **Mobile-First Innovation:**
-  Championed mobile-first and progressive enhancement strategies for legacy applications, establishing responsive design standards adopted across teams.
-- **Client Engagement & Stakeholder Management:**
-  Regularly engaged with business clients to demonstrate features, gather feedback, and ensure product evolution aligned with customer needs through structured stakeholder management and requirements analysis.
-- **DevOps & Automation:**
-  Transitioned through DevOps role, gaining 3rd line support experience while contributing to feature development across multiple products, coordinating development resources and managing technical risk assessment.
-- **Testing Automation:**
-  Introduced automation processes to reduce testing time and improve efficiency. Expanded into wireframing and requirements gathering with product owners, facilitating resource planning and process optimisation.
+Progressed from system testing through DevOps into senior web development across multiple products. Championed mobile-first and progressive-enhancement strategies for legacy applications, introduced test automation that reduced QA cycle times, and worked directly with business clients on demos, requirements gathering, and wireframing. Gained 3rd-line support experience and contributed to feature development, technical risk assessment, and resource planning.
 
 ---
 
-## Core Technical Skills
+## Technical Stack
 
-**Frontend:** Angular • TypeScript • JavaScript • Tailwind CSS • Angular Material • HTMX • AlpineJS • Responsive Design
+**Currently building with:** Go, HTMX/Alpine, TypeScript, AWS (Bedrock, Lambda, ECS),
+Angular, Tailwind, Terraform, Docker.
 
-**Backend & Cloud:** GO • Node.js • PHP • AWS (ECS, Lambda, Cognito, S3, EventBridge, DynamoDB, Bedrock) • Terraform
+**LLM work:** Production Bedrock features with tool use, structured outputs,
+and eval-driven development.
 
-**Data & Analytics:** Data Visualisation • Big Data Processing • Parquet (DuckDB) • MySQL • Database Design • RESTful APIs
+**Comfortable in:** React, Node.js, PHP, MySQL, Parquet/DuckDB, Nx monorepos, Storybook, Figma.
 
-**DevOps & Tools:** Docker • CI/CD Pipelines • Git • Bitbucket • Nx Monorepos • Figma • Contentful • Storybook
-
-**Previous:** C# • .NET • ASP.NET • SQL Server • VB6
+**Earlier career:** C#, .NET, ASP.NET, SQL Server.
 
 ---
 
 ## Projects
 
 ### Bristol Rowing
-[bristolrowing.co.uk](https://bristolrowing.co.uk) **Designer, Developer, and Maintainer**
+[bristolrowing.co.uk](https://bristolrowing.co.uk) — **Designer, Developer, and Maintainer**
 
-- **Built a comprehensive rowing club website** using Angular frontend with PHP and MySQL backend
-- **Delivered CMS solution** enabling the Communication team to manage public-facing content independently
-- **Developed a membership portal** including resource management, booking system, treasury/finance tools, and event coordination
-- **Manage ongoing maintenance and feature development**, ensuring reliable service for club operations
+- **Built and maintain a full rowing-club website** with Angular front-end and PHP/MySQL back-end.
+- **Delivered a CMS** that lets the communications team manage public content independently.
+- **Developed the membership portal**, covering resource management, bookings, treasury/finance, and event coordination.
 
 ---
 
 ## Education
 
 ### Bristol University _(2005 to 2008)_
-**Computer Science (BSc) - 2:1**
+**Computer Science (BSc) — 2:1**
 
 ### Chislehurst and Sidcup Grammar School _(1998 to 2005)_
 **GCSEs and A Levels**
@@ -77,10 +71,7 @@
 ## Additional Leadership Experience
 
 ### Trustee, City of Bristol Rowing Club _(2013 to 2019)_
-- **Supported strategic direction** for charity serving a large membership base with substantial annual turnover
-- **Contributed to operational guidance** ensuring effective delivery of key services and sustainable growth
+Contributed to strategic direction and operational guidance for a charity with a large membership and substantial annual turnover.
 
 ### Head Coach, City of Bristol Rowing Club Women's Squad _(2016 to 2021)_
-- **Led performance sports team**, increasing both participation levels and overall team performance
-- **Developed culture focused on individual growth** and process-driven improvement, helping athletes achieve personal excellence
-- **Managed team development** balancing competitive goals with athlete wellbeing and long-term progression
+Led a performance sports team through measurable growth in both participation and competitive results. Built a culture focused on individual development and process-driven improvement, balancing competitive goals with athlete wellbeing.
