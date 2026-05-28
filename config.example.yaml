@@ -1,0 +1,87 @@
+# jobagent configuration
+#
+# Copy this file to config.yaml (which is gitignored) and fill in your own
+# criteria. The example below is a reasonable starting point for a UK-based
+# senior/lead web developer interested in Go and AI work.
+
+llm:
+  backend: lmstudio
+  base_url: http://localhost:1234/v1
+  # The model string LM Studio shows in its UI. Update to whatever you have loaded.
+  model: qwen/qwen3.5-9b
+
+
+# Cap postings per run during development. Set to 0 for unlimited.
+# Start low (e.g. 5) while you iterate on prompts.
+max_postings: 5
+
+# File-system paths for persistent data. Defaults shown — omit this block
+# to accept the defaults.
+paths:
+  seen_store: ~/.jobagent/seen.jsonl
+  briefings_dir: ~/.jobagent/briefings/
+
+criteria:
+  seniority:
+    - senior
+    - lead
+    - principal
+    - staff
+
+  location:
+    must_be:
+      - bristol
+      - bristol_hybrid
+      - sw_england_hybrid
+      - uk_remote
+      - fully_remote_uk_friendly
+    dealbreaker:
+      - us_only
+      - eu_only_no_uk
+      - london_5_days_in_office
+      - in_office_5_days
+
+  stack:
+    love:
+      - go
+      - server_rendered
+      - htmx
+      - alpinejs
+      - llm
+      - agents
+      - typescript
+      - angular
+      - tailwind
+    fine:
+      - node
+      - postgres
+      - mysql
+      - anthropic
+      - claude
+    tolerate:
+      - c#
+      - php
+      - react
+      - nextjs
+      - aws
+    avoid:
+      - pure_data_science_role
+      - web3
+      - crypto
+      - manual_qa_only
+      - pure_devops_no_application_code
+
+  role_must_haves:
+    - architectural_input_or_team_lead_responsibilities
+    - building_things_not_just_meetings
+
+  dealbreakers:
+    - junior_or_mid_level_role
+    - sponsorship_required_for_uk_work
+    - fully_onsite_outside_bristol_or_sw_england
+
+  freeform_notes: |
+    I'm a Lead Web Developer with 17+ years of experience...
+
+    Bonus points for: ....
+    Penalty for: ....

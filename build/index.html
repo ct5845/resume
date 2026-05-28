@@ -173,6 +173,17 @@ and eval-driven development.</p>
 
 <h2>Projects</h2>
 
+<h3>Job-Search Agent</h3>
+
+<p><strong>Go · Claude API · MCP · local LLMs (LM Studio)</strong></p>
+
+<ul>
+<li><strong>Built an LLM-powered agent</strong> that aggregates job postings from job-posting sources, scores each against a structured criteria profile, and produces a ranked daily briefing — turning a noisy manual search into a filtered, explained shortlist.</li>
+<li><strong>Designed around clean interfaces</strong> (pluggable sources and LLM backends), so adding a new job source or swapping the model is a single new file. Developed against a local model via LM Studio for fast, zero-cost iteration, then switched to Claude for production-quality scoring.</li>
+<li><strong>Structured-output classification</strong> with schema-constrained JSON, deterministic scoring, and an eval set that catches prompt regressions — the same eval-driven approach I use for production LLM features.</li>
+<li><strong>Exposed as an MCP server</strong>, so the agent&rsquo;s tools are usable directly from Claude Desktop as well as the CLI.</li>
+</ul>
+
 <h3>Bristol Rowing</h3>
 
 <p><a href="https://bristolrowing.co.uk" target="_blank">bristolrowing.co.uk</a> — <strong>Designer, Developer, and Maintainer</strong></p>

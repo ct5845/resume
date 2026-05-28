@@ -4,5 +4,10 @@
 /node_modules
 /.claude
 /.tmp
+/bin
 
 /tmp
+
+config.yaml
+resume.code-workspace
+PROJECT.md
