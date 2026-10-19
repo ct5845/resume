@@ -1,8 +1,8 @@
 ## Professional Summary
 
-**Lead web developer with 17+ years of experience, recently focused on integrating LLM-powered agents and AI features into production web platforms.** At Alterian, I led the team that built and shipped Bedrock-backed analytics and conversational data tooling to real customers, on top of large-scale data infrastructure on AWS.
+**Lead engineer with 17+ years' experience, working from raw data through to shipped product.** At Alterian I work directly with high-volume raw clickstream data: building the pipelines, finding patterns in how customers actually behave, and using that to decide what is worth building. I then lead the team that builds it, including production LLM features on AWS Bedrock shipped to real customers.
 
-**Architectural breadth across the modern web stack** — Go and TypeScript backends, Angular and component-driven UI, server-rendered HTMX/Alpine, and AWS-native infrastructure. Comfortable picking the right tool for the problem; pragmatic about stack choices and quick to come up to speed in unfamiliar ones.
+**As much product discovery as delivery.** Much of my time goes on the questions before the code: exploring the data, testing ideas with product and commercial teams, prototyping, and prioritising. I can then build end to end, across Go and TypeScript backends, Angular and server-rendered HTMX/Alpine front-ends, and AWS-native infrastructure.
 
 **Strong record of mentoring developers, modernising legacy stacks, and turning manual delivery processes into automated CI/CD pipelines.** Equally happy in a Lead/Principal role setting direction or as a Senior IC building the hard parts.
 
@@ -13,18 +13,16 @@
 ### Senior Web Developer ➠ Lead Web Developer
 ***Alterian (2015 to Present)***
 
+- **Product Discovery & Clickstream Data:**
+  Work from raw, high-volume clickstream data upwards: building the ingestion and preprocessing pipelines (**Parquet** storage queried with **DuckDB**), digging into it to find patterns in real customer journeys, and turning those findings into product hypotheses, prototypes and feature priorities with product and commercial teams. The same data foundation feeds both classical visualisations and the LLM features below.
 - **AI & LLM Integration:**
   Designed and shipped production LLM features using **AWS Bedrock**, including conversational data insights over large-scale customer-journey datasets and LLM-powered analytics surfaced inside the product UI. Built **tool-calling architecture** that lets the model query internal APIs and structured data stores (SQL, Parquet/DuckDB) as part of answering, rather than stuffing raw data into prompts.
 - **Technical Architecture & Modernisation:**
-  Led two major platform transformations. First, unified the web stack on **Angular**, **Material Design**, **Nx monorepos**, **Tailwind CSS**, and **Storybook** with atomic design principles. More recently, led a strategic move to **Go** with lightweight HTMX/Alpine front-ends for new products, delivering faster CI/CD, lower hosting cost, and a smaller surface area for the team to maintain — while keeping React/Angular skills available where they're the right fit.
+  Led two major platform transformations. First, unified the web stack on **Angular**, **Material Design**, **Nx monorepos**, **Tailwind CSS**, and **Storybook** with atomic design principles. More recently, led a strategic move to **Go** with lightweight HTMX/Alpine front-ends for new products, delivering faster CI/CD, lower hosting cost, and a smaller surface area for the team to maintain.
 - **Leadership & Team Development:**
-  Provide technical leadership and mentoring across the development team, guiding Junior Developers through to Senior roles and growing UI specialists into full-stack engineers. Run code reviews, design sessions, and architecture discussions; foster a culture of continuous learning and cross-functional collaboration.
-- **Product Strategy & Stakeholder Management:**
-  Lead UX improvement initiatives and feature prioritisation aligned with business objectives. Bridge communication between engineering, product, and commercial teams — translating business requirements into technical solutions and managing stakeholder expectations across delivery cycles.
+  Provide technical leadership and mentoring across the development team, guiding Junior Developers through to Senior roles and growing UI specialists into full-stack engineers. Run code reviews, design sessions, and architecture discussions, and bridge engineering, product and commercial teams by translating business needs into technical direction.
 - **DevOps & Cloud Infrastructure:**
   Led the migration from manual 6-weekly deployments to automated CI/CD using **Docker**, **ECS Fargate**, and **Bitbucket Pipelines**, giving the team complete deployment control and continuous delivery. Built cloud-native architecture across the AWS ecosystem (**ECS, Lambda, S3, EventBridge, DynamoDB, Cognito, Bedrock**) with **Terraform**, and established secure development practices (SSDLC) and a comprehensive testing strategy.
-- **Data Engineering & Analytics:**
-  Built data preprocessing and analytics pipelines over large web-traffic datasets, including **Parquet**-based storage queried with **DuckDB**, feeding both classical visualisations and LLM-driven insights.
 
 ### System Tester ➠ DevOps ➠ Senior Web Developer
 ***Computershare (2008 to 2015)***
@@ -35,13 +33,13 @@ Progressed from system testing through DevOps into senior web development across
 
 ## Technical Stack
 
-**Currently building with:** Go, HTMX/Alpine, TypeScript, AWS (Bedrock, Lambda, ECS),
-Angular, Tailwind, Terraform, Docker.
+**Currently building with:** Go, TypeScript, HTMX/Alpine, Angular, Tailwind, AWS (Bedrock, Lambda, ECS), Terraform, Docker.
 
-**LLM work:** Production Bedrock features with tool use, structured outputs,
-and eval-driven development.
+**Data:** Raw clickstream processing, Parquet, DuckDB, SQL, data visualisation.
 
-**Comfortable in:** React, Node.js, PHP, MySQL, Parquet/DuckDB, Nx monorepos, Storybook, Figma.
+**LLM work:** Production Bedrock features with tool use, structured outputs, and eval-driven development.
+
+**Comfortable in:** React, Node.js, PHP, MySQL, Nx monorepos, Storybook, Figma.
 
 **Earlier career:** C#, .NET, ASP.NET, SQL Server.
 
@@ -50,12 +48,11 @@ and eval-driven development.
 ## Projects
 
 ### Job-Search Agent
-**Go · Claude API · MCP · local LLMs (LM Studio)**
+**Go · local LLMs (LM Studio) · MCP**
 
-- **Built an LLM-powered agent** that aggregates job postings from job-posting sources, scores each against a structured criteria profile, and produces a ranked daily briefing — turning a noisy manual search into a filtered, explained shortlist.
-- **Designed around clean interfaces** (pluggable sources and LLM backends), so adding a new job source or swapping the model is a single new file. Developed against a local model via LM Studio for fast, zero-cost iteration, then switched to Claude for production-quality scoring.
-- **Structured-output classification** with schema-constrained JSON, deterministic scoring, and an eval set that catches prompt regressions — the same eval-driven approach I use for production LLM features.
-- **Exposed as an MCP server**, so the agent's tools are usable directly from Claude Desktop as well as the CLI.
+- **Built an LLM-powered agent** that pulls postings from Hacker News "Who is hiring?", scores each against a structured criteria profile, and produces a ranked, explained shortlist.
+- **Schema-constrained JSON output** at temperature 0 for deterministic classification, behind pluggable source and LLM-backend interfaces so a new source or model is a single new file.
+- **Exposed as an MCP server**, so its tools can be used from Claude Desktop as well as the CLI.
 
 ### Bristol Rowing
 [bristolrowing.co.uk](https://bristolrowing.co.uk) — **Designer, Developer, and Maintainer**
