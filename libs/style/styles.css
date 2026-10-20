@@ -13,6 +13,10 @@
 @import "./interactive.css";
 @import "./toast.css";
 
+@page {
+  size: A4;
+}
+
 @theme {
   --font-sans: "Lora", "sans-serif-override";
   --font-serif: ui-serif, serif;

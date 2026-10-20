@@ -26,6 +26,6 @@
 
   a {
     @apply underline text-primary;
-    @apply print:text-black;
+    @apply print:!text-black;
   }
 }

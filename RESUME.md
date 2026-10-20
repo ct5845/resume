@@ -14,9 +14,9 @@
 ***Alterian (2015 to Present)***
 
 - **Product Discovery & Clickstream Data:**
-  Work from raw, high-volume clickstream data upwards: building the ingestion and preprocessing pipelines (**Parquet** storage queried with **DuckDB**), digging into it to find patterns in real customer journeys, and turning those findings into product hypotheses, prototypes and feature priorities with product and commercial teams. The same data foundation feeds both classical visualisations and the LLM features below.
-- **AI & LLM Integration:**
-  Designed and shipped production LLM features using **AWS Bedrock**, including conversational data insights over large-scale customer-journey datasets and LLM-powered analytics surfaced inside the product UI. Built **tool-calling architecture** that lets the model query internal APIs and structured data stores (SQL, Parquet/DuckDB) as part of answering, rather than stuffing raw data into prompts.
+  Work from raw, high-volume clickstream data upwards: building the ingestion and preprocessing pipelines (**Parquet** queried with **DuckDB**, and **StarRocks** as the analytical database), digging into it to find patterns in real customer journeys, and turning those findings into product hypotheses, prototypes and feature priorities with product and commercial teams.
+- **AI, Search & LLM Integration:**
+  Designed and shipped production LLM features on **AWS Bedrock**, including conversational insights over large-scale customer-journey datasets, with a **tool-calling architecture** that lets the model query internal APIs and data stores (SQL, Parquet/DuckDB) rather than stuffing raw data into prompts. Now applying **embeddings** and **vector similarity search** to classify and search raw journey data, and building a comparison tool that combines several retrieval methods with an **LLM-as-judge** in the loop to score and rank results.
 - **Technical Architecture & Modernisation:**
   Led two major platform transformations. First, unified the web stack on **Angular**, **Material Design**, **Nx monorepos**, **Tailwind CSS**, and **Storybook** with atomic design principles. More recently, led a strategic move to **Go** with lightweight HTMX/Alpine front-ends for new products, delivering faster CI/CD, lower hosting cost, and a smaller surface area for the team to maintain.
 - **Leadership & Team Development:**
@@ -35,9 +35,9 @@ Progressed from system testing through DevOps into senior web development across
 
 **Currently building with:** Go, TypeScript, HTMX/Alpine, Angular, Tailwind, AWS (Bedrock, Lambda, ECS), Terraform, Docker.
 
-**Data:** Raw clickstream processing, Parquet, DuckDB, SQL, data visualisation.
+**Data:** Raw clickstream processing, Parquet, DuckDB, StarRocks, SQL, data visualisation.
 
-**LLM work:** Production Bedrock features with tool use, structured outputs, and eval-driven development.
+**AI & search:** Production Bedrock features with tool use and structured outputs; embeddings, vector similarity search, classification, and LLM-as-judge evaluation.
 
 **Comfortable in:** React, Node.js, PHP, MySQL, Nx monorepos, Storybook, Figma.
 

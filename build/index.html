@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="public/styles.css">
     <title>Christopher Turner's Resume</title>
 </head>
-<body class="mx-auto prose max-w-[75ch] w-full print:px-0 print:!text-black bg-background">
+<body class="mx-auto prose max-w-[75ch] w-full print:px-0 print:!text-black bg-background print:bg-transparent">
     <header
-  class="py-mq bg-background sticky top-0 bg-base-100 border-b-2 print:relative print:border-black mb-mq print:mb-2"
+  class="py-mq bg-background sticky top-0 bg-base-100 border-b-2 print:bg-transparent print:relative print:border-black mb-mq print:mb-2"
 >
   <div class="flex items-start justify-between">
     <h1 class="text-5xl font-light">Christopher Turner</h1>
@@ -136,9 +136,9 @@
 
 <ul>
 <li><strong>Product Discovery &amp; Clickstream Data:</strong>
-Work from raw, high-volume clickstream data upwards: building the ingestion and preprocessing pipelines (<strong>Parquet</strong> storage queried with <strong>DuckDB</strong>), digging into it to find patterns in real customer journeys, and turning those findings into product hypotheses, prototypes and feature priorities with product and commercial teams. The same data foundation feeds both classical visualisations and the LLM features below.</li>
-<li><strong>AI &amp; LLM Integration:</strong>
-Designed and shipped production LLM features using <strong>AWS Bedrock</strong>, including conversational data insights over large-scale customer-journey datasets and LLM-powered analytics surfaced inside the product UI. Built <strong>tool-calling architecture</strong> that lets the model query internal APIs and structured data stores (SQL, Parquet/DuckDB) as part of answering, rather than stuffing raw data into prompts.</li>
+Work from raw, high-volume clickstream data upwards: building the ingestion and preprocessing pipelines (<strong>Parquet</strong> queried with <strong>DuckDB</strong>, and <strong>StarRocks</strong> as the analytical database), digging into it to find patterns in real customer journeys, and turning those findings into product hypotheses, prototypes and feature priorities with product and commercial teams.</li>
+<li><strong>AI, Search &amp; LLM Integration:</strong>
+Designed and shipped production LLM features on <strong>AWS Bedrock</strong>, including conversational insights over large-scale customer-journey datasets, with a <strong>tool-calling architecture</strong> that lets the model query internal APIs and data stores (SQL, Parquet/DuckDB) rather than stuffing raw data into prompts. Now applying <strong>embeddings</strong> and <strong>vector similarity search</strong> to classify and search raw journey data, and building a comparison tool that combines several retrieval methods with an <strong>LLM-as-judge</strong> in the loop to score and rank results.</li>
 <li><strong>Technical Architecture &amp; Modernisation:</strong>
 Led two major platform transformations. First, unified the web stack on <strong>Angular</strong>, <strong>Material Design</strong>, <strong>Nx monorepos</strong>, <strong>Tailwind CSS</strong>, and <strong>Storybook</strong> with atomic design principles. More recently, led a strategic move to <strong>Go</strong> with lightweight HTMX/Alpine front-ends for new products, delivering faster CI/CD, lower hosting cost, and a smaller surface area for the team to maintain.</li>
 <li><strong>Leadership &amp; Team Development:</strong>
@@ -159,9 +159,9 @@ Led the migration from manual 6-weekly deployments to automated CI/CD using <str
 
 <p><strong>Currently building with:</strong> Go, TypeScript, HTMX/Alpine, Angular, Tailwind, AWS (Bedrock, Lambda, ECS), Terraform, Docker.</p>
 
-<p><strong>Data:</strong> Raw clickstream processing, Parquet, DuckDB, SQL, data visualisation.</p>
+<p><strong>Data:</strong> Raw clickstream processing, Parquet, DuckDB, StarRocks, SQL, data visualisation.</p>
 
-<p><strong>LLM work:</strong> Production Bedrock features with tool use, structured outputs, and eval-driven development.</p>
+<p><strong>AI &amp; search:</strong> Production Bedrock features with tool use and structured outputs; embeddings, vector similarity search, classification, and LLM-as-judge evaluation.</p>
 
 <p><strong>Comfortable in:</strong> React, Node.js, PHP, MySQL, Nx monorepos, Storybook, Figma.</p>
 

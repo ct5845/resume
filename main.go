@@ -8,6 +8,7 @@ import (
 
 	"github.com/ct5845/resume/libs/header"
 	"github.com/ct5845/resume/libs/index"
+	"github.com/ct5845/resume/libs/pdf"
 	"github.com/ct5845/resume/libs/public"
 	"github.com/ct5845/resume/libs/resume"
 	"github.com/ct5845/resume/libs/style"
@@ -66,6 +67,13 @@ func main() {
 		panic(err)
 	}
 
+	err = pdf.Print(buildDir)
+	if err != nil {
+		slog.Error("Error printing PDF", "error", err)
+		panic(err)
+	}
+
 	fmt.Printf("Generated %s\n", indexPath)
 	fmt.Printf("Compiled CSS to %s\n", filepath.Join(buildDir, "public", "styles.css"))
+	fmt.Printf("Printed PDF to %s\n", filepath.Join(buildDir, "public", "christopher-turners-resume.pdf"))
 }

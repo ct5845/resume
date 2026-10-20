@@ -12,11 +12,11 @@ Generates my resume as static HTML using Go and Tailwind CSS.
 
 1. [Markdown Version](./RESUME.md)
 2. [HTML Version](./build/index.html) (generated locally)
-3. [PDF Version](./libs/public/christopher-turners-resume.pdf)
+3. [PDF Version](./build/public/christopher-turners-resume.pdf)
 
 ### Development
 
-Prerequisites: Go 1.24+, Node.js (for Tailwind CSS)
+Prerequisites: Go 1.24+, Node.js (for Tailwind CSS), Microsoft Edge (for PDF printing)
 
 ```bash
 npm install       # install Tailwind
@@ -24,14 +24,13 @@ npm run dev       # watch and regenerate on change
 npm run build     # one-shot build to build/
 ```
 
-Output: `build/index.html` and `build/public/styles.css`.
+Output: `build/index.html`, `build/public/styles.css`, and `build/public/christopher-turners-resume.pdf` (printed with headless Edge).
 
 ### Workflow
 
 1. Update [RESUME.md](./RESUME.md)
-2. Run `npm run dev`
-3. Open `build/index.html` in a browser
-4. Print to PDF via the browser (`ctrl` + `p`)
+2. Run `npm run build`
+3. Commit `build/`
 
 ---
 
